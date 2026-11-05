@@ -1,0 +1,1175 @@
+{
+  "method": "Exact NumPy random-generator replay matching balanced_draw; spectrum/track arrays and heldout are not read; frames are zero-indexed.",
+  "train_mats": 964,
+  "draws_per_epoch": 6153,
+  "epochs": 30,
+  "classes": [
+    "UAV1",
+    "UAV2",
+    "UAV3",
+    "UAV4",
+    "Bird",
+    "Birds",
+    "Wing Bird",
+    "Rotate",
+    "Car"
+  ],
+  "class_mat_counts": [
+    93,
+    96,
+    94,
+    97,
+    126,
+    91,
+    95,
+    98,
+    174
+  ],
+  "seeds": {
+    "42": {
+      "best_epoch": 24,
+      "best_checkpoint_training_coverage": {
+        "total_draws": 147672,
+        "mats_used": 964,
+        "mats_unused": 0,
+        "min_draws_per_mat": 74,
+        "max_draws_per_mat": 212,
+        "total_frames": 37389,
+        "frames_used": 37363,
+        "frames_unused": 26,
+        "total_valid_starts": 28713,
+        "unique_starts_used": 28242,
+        "unused_frame_details": [
+          {
+            "path": "train/UAV1/0059_37.mat",
+            "frames": 37,
+            "draws": 175,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/UAV1/0066_60.mat",
+            "frames": 60,
+            "draws": 154,
+            "unused_frame_indices": [
+              59
+            ]
+          },
+          {
+            "path": "train/UAV1/0079_49.mat",
+            "frames": 49,
+            "draws": 183,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/UAV2/0096_46.mat",
+            "frames": 46,
+            "draws": 163,
+            "unused_frame_indices": [
+              45
+            ]
+          },
+          {
+            "path": "train/UAV3/0002_41.mat",
+            "frames": 41,
+            "draws": 165,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/UAV3/0020_60.mat",
+            "frames": 60,
+            "draws": 176,
+            "unused_frame_indices": [
+              59
+            ]
+          },
+          {
+            "path": "train/UAV4/0053_46.mat",
+            "frames": 46,
+            "draws": 174,
+            "unused_frame_indices": [
+              45
+            ]
+          },
+          {
+            "path": "train/UAV4/0070_52.mat",
+            "frames": 52,
+            "draws": 176,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/UAV4/0092_66.mat",
+            "frames": 66,
+            "draws": 179,
+            "unused_frame_indices": [
+              65
+            ]
+          },
+          {
+            "path": "train/UAV4/0112_43.mat",
+            "frames": 43,
+            "draws": 162,
+            "unused_frame_indices": [
+              42
+            ]
+          },
+          {
+            "path": "train/Bird/0035_44.mat",
+            "frames": 44,
+            "draws": 120,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0041_64.mat",
+            "frames": 64,
+            "draws": 128,
+            "unused_frame_indices": [
+              0,
+              1
+            ]
+          },
+          {
+            "path": "train/Bird/0069_65.mat",
+            "frames": 65,
+            "draws": 112,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0095_46.mat",
+            "frames": 46,
+            "draws": 136,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0107_37.mat",
+            "frames": 37,
+            "draws": 118,
+            "unused_frame_indices": [
+              36
+            ]
+          },
+          {
+            "path": "train/Bird/0121_49.mat",
+            "frames": 49,
+            "draws": 120,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0149_57.mat",
+            "frames": 57,
+            "draws": 140,
+            "unused_frame_indices": [
+              56
+            ]
+          },
+          {
+            "path": "train/Birds/0031_60.mat",
+            "frames": 60,
+            "draws": 188,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Rotate/0007_45.mat",
+            "frames": 45,
+            "draws": 150,
+            "unused_frame_indices": [
+              44
+            ]
+          },
+          {
+            "path": "train/Rotate/0023_38.mat",
+            "frames": 38,
+            "draws": 140,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0004_37.mat",
+            "frames": 37,
+            "draws": 79,
+            "unused_frame_indices": [
+              36
+            ]
+          },
+          {
+            "path": "train/Car/0050_51.mat",
+            "frames": 51,
+            "draws": 90,
+            "unused_frame_indices": [
+              0,
+              1
+            ]
+          },
+          {
+            "path": "train/Car/0082_34.mat",
+            "frames": 34,
+            "draws": 99,
+            "unused_frame_indices": [
+              33
+            ]
+          },
+          {
+            "path": "train/Car/0259_50.mat",
+            "frames": 50,
+            "draws": 87,
+            "unused_frame_indices": [
+              0
+            ]
+          }
+        ]
+      },
+      "full_training_coverage": {
+        "total_draws": 184590,
+        "mats_used": 964,
+        "mats_unused": 0,
+        "min_draws_per_mat": 90,
+        "max_draws_per_mat": 262,
+        "total_frames": 37389,
+        "frames_used": 37377,
+        "frames_unused": 12,
+        "total_valid_starts": 28713,
+        "unique_starts_used": 28512,
+        "unused_frame_details": [
+          {
+            "path": "train/UAV3/0002_41.mat",
+            "frames": 41,
+            "draws": 201,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/UAV4/0053_46.mat",
+            "frames": 46,
+            "draws": 208,
+            "unused_frame_indices": [
+              45
+            ]
+          },
+          {
+            "path": "train/UAV4/0092_66.mat",
+            "frames": 66,
+            "draws": 228,
+            "unused_frame_indices": [
+              65
+            ]
+          },
+          {
+            "path": "train/Bird/0041_64.mat",
+            "frames": 64,
+            "draws": 160,
+            "unused_frame_indices": [
+              0,
+              1
+            ]
+          },
+          {
+            "path": "train/Bird/0107_37.mat",
+            "frames": 37,
+            "draws": 145,
+            "unused_frame_indices": [
+              36
+            ]
+          },
+          {
+            "path": "train/Bird/0121_49.mat",
+            "frames": 49,
+            "draws": 148,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0149_57.mat",
+            "frames": 57,
+            "draws": 183,
+            "unused_frame_indices": [
+              56
+            ]
+          },
+          {
+            "path": "train/Rotate/0023_38.mat",
+            "frames": 38,
+            "draws": 180,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0050_51.mat",
+            "frames": 51,
+            "draws": 116,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0082_34.mat",
+            "frames": 34,
+            "draws": 124,
+            "unused_frame_indices": [
+              33
+            ]
+          },
+          {
+            "path": "train/Car/0259_50.mat",
+            "frames": 50,
+            "draws": 108,
+            "unused_frame_indices": [
+              0
+            ]
+          }
+        ]
+      },
+      "per_epoch": [
+        {
+          "epoch": 1,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 2,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 3,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 4,
+          "mats_unused_in_epoch": 1
+        },
+        {
+          "epoch": 5,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 6,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 7,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 8,
+          "mats_unused_in_epoch": 7
+        },
+        {
+          "epoch": 9,
+          "mats_unused_in_epoch": 7
+        },
+        {
+          "epoch": 10,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 11,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 12,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 13,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 14,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 15,
+          "mats_unused_in_epoch": 7
+        },
+        {
+          "epoch": 16,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 17,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 18,
+          "mats_unused_in_epoch": 9
+        },
+        {
+          "epoch": 19,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 20,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 21,
+          "mats_unused_in_epoch": 8
+        },
+        {
+          "epoch": 22,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 23,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 24,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 25,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 26,
+          "mats_unused_in_epoch": 10
+        },
+        {
+          "epoch": 27,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 28,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 29,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 30,
+          "mats_unused_in_epoch": 4
+        }
+      ]
+    },
+    "43": {
+      "best_epoch": 29,
+      "best_checkpoint_training_coverage": {
+        "total_draws": 178437,
+        "mats_used": 964,
+        "mats_unused": 0,
+        "min_draws_per_mat": 83,
+        "max_draws_per_mat": 259,
+        "total_frames": 37389,
+        "frames_used": 37382,
+        "frames_unused": 7,
+        "total_valid_starts": 28713,
+        "unique_starts_used": 28521,
+        "unused_frame_details": [
+          {
+            "path": "train/Bird/0023_45.mat",
+            "frames": 45,
+            "draws": 156,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0069_65.mat",
+            "frames": 65,
+            "draws": 160,
+            "unused_frame_indices": [
+              64
+            ]
+          },
+          {
+            "path": "train/Bird/0144_39.mat",
+            "frames": 39,
+            "draws": 127,
+            "unused_frame_indices": [
+              38
+            ]
+          },
+          {
+            "path": "train/Rotate/0120_44.mat",
+            "frames": 44,
+            "draws": 177,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0038_50.mat",
+            "frames": 50,
+            "draws": 115,
+            "unused_frame_indices": [
+              49
+            ]
+          },
+          {
+            "path": "train/Car/0232_41.mat",
+            "frames": 41,
+            "draws": 117,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0261_40.mat",
+            "frames": 40,
+            "draws": 113,
+            "unused_frame_indices": [
+              39
+            ]
+          }
+        ]
+      },
+      "full_training_coverage": {
+        "total_draws": 184590,
+        "mats_used": 964,
+        "mats_unused": 0,
+        "min_draws_per_mat": 88,
+        "max_draws_per_mat": 269,
+        "total_frames": 37389,
+        "frames_used": 37385,
+        "frames_unused": 4,
+        "total_valid_starts": 28713,
+        "unique_starts_used": 28552,
+        "unused_frame_details": [
+          {
+            "path": "train/Bird/0023_45.mat",
+            "frames": 45,
+            "draws": 165,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0144_39.mat",
+            "frames": 39,
+            "draws": 132,
+            "unused_frame_indices": [
+              38
+            ]
+          },
+          {
+            "path": "train/Car/0038_50.mat",
+            "frames": 50,
+            "draws": 120,
+            "unused_frame_indices": [
+              49
+            ]
+          },
+          {
+            "path": "train/Car/0261_40.mat",
+            "frames": 40,
+            "draws": 119,
+            "unused_frame_indices": [
+              39
+            ]
+          }
+        ]
+      },
+      "per_epoch": [
+        {
+          "epoch": 1,
+          "mats_unused_in_epoch": 1
+        },
+        {
+          "epoch": 2,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 3,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 4,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 5,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 6,
+          "mats_unused_in_epoch": 1
+        },
+        {
+          "epoch": 7,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 8,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 9,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 10,
+          "mats_unused_in_epoch": 1
+        },
+        {
+          "epoch": 11,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 12,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 13,
+          "mats_unused_in_epoch": 7
+        },
+        {
+          "epoch": 14,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 15,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 16,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 17,
+          "mats_unused_in_epoch": 8
+        },
+        {
+          "epoch": 18,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 19,
+          "mats_unused_in_epoch": 1
+        },
+        {
+          "epoch": 20,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 21,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 22,
+          "mats_unused_in_epoch": 10
+        },
+        {
+          "epoch": 23,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 24,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 25,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 26,
+          "mats_unused_in_epoch": 8
+        },
+        {
+          "epoch": 27,
+          "mats_unused_in_epoch": 1
+        },
+        {
+          "epoch": 28,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 29,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 30,
+          "mats_unused_in_epoch": 2
+        }
+      ]
+    },
+    "44": {
+      "best_epoch": 22,
+      "best_checkpoint_training_coverage": {
+        "total_draws": 135366,
+        "mats_used": 964,
+        "mats_unused": 0,
+        "min_draws_per_mat": 64,
+        "max_draws_per_mat": 198,
+        "total_frames": 37389,
+        "frames_used": 37359,
+        "frames_unused": 30,
+        "total_valid_starts": 28713,
+        "unique_starts_used": 28153,
+        "unused_frame_details": [
+          {
+            "path": "train/UAV1/0010_39.mat",
+            "frames": 39,
+            "draws": 163,
+            "unused_frame_indices": [
+              38
+            ]
+          },
+          {
+            "path": "train/UAV1/0092_52.mat",
+            "frames": 52,
+            "draws": 160,
+            "unused_frame_indices": [
+              51
+            ]
+          },
+          {
+            "path": "train/UAV2/0039_46.mat",
+            "frames": 46,
+            "draws": 168,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/UAV2/0045_61.mat",
+            "frames": 61,
+            "draws": 147,
+            "unused_frame_indices": [
+              60
+            ]
+          },
+          {
+            "path": "train/UAV2/0046_40.mat",
+            "frames": 40,
+            "draws": 135,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/UAV3/0103_45.mat",
+            "frames": 45,
+            "draws": 174,
+            "unused_frame_indices": [
+              44
+            ]
+          },
+          {
+            "path": "train/UAV4/0025_64.mat",
+            "frames": 64,
+            "draws": 144,
+            "unused_frame_indices": [
+              63
+            ]
+          },
+          {
+            "path": "train/UAV4/0062_53.mat",
+            "frames": 53,
+            "draws": 164,
+            "unused_frame_indices": [
+              52
+            ]
+          },
+          {
+            "path": "train/UAV4/0075_59.mat",
+            "frames": 59,
+            "draws": 153,
+            "unused_frame_indices": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "path": "train/UAV4/0104_56.mat",
+            "frames": 56,
+            "draws": 135,
+            "unused_frame_indices": [
+              55
+            ]
+          },
+          {
+            "path": "train/UAV4/0116_42.mat",
+            "frames": 42,
+            "draws": 147,
+            "unused_frame_indices": [
+              41
+            ]
+          },
+          {
+            "path": "train/Bird/0058_38.mat",
+            "frames": 38,
+            "draws": 115,
+            "unused_frame_indices": [
+              37
+            ]
+          },
+          {
+            "path": "train/Bird/0059_46.mat",
+            "frames": 46,
+            "draws": 108,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0081_46.mat",
+            "frames": 46,
+            "draws": 119,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0091_55.mat",
+            "frames": 55,
+            "draws": 92,
+            "unused_frame_indices": [
+              54
+            ]
+          },
+          {
+            "path": "train/Bird/0122_35.mat",
+            "frames": 35,
+            "draws": 113,
+            "unused_frame_indices": [
+              34
+            ]
+          },
+          {
+            "path": "train/Bird/0142_46.mat",
+            "frames": 46,
+            "draws": 107,
+            "unused_frame_indices": [
+              45
+            ]
+          },
+          {
+            "path": "train/Bird/0149_57.mat",
+            "frames": 57,
+            "draws": 104,
+            "unused_frame_indices": [
+              56
+            ]
+          },
+          {
+            "path": "train/Bird/0156_48.mat",
+            "frames": 48,
+            "draws": 135,
+            "unused_frame_indices": [
+              47
+            ]
+          },
+          {
+            "path": "train/Birds/0026_48.mat",
+            "frames": 48,
+            "draws": 156,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Birds/0075_60.mat",
+            "frames": 60,
+            "draws": 152,
+            "unused_frame_indices": [
+              59
+            ]
+          },
+          {
+            "path": "train/Wing Bird/0035_40.mat",
+            "frames": 40,
+            "draws": 169,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0001_37.mat",
+            "frames": 37,
+            "draws": 67,
+            "unused_frame_indices": [
+              36
+            ]
+          },
+          {
+            "path": "train/Car/0138_39.mat",
+            "frames": 39,
+            "draws": 83,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0204_52.mat",
+            "frames": 52,
+            "draws": 81,
+            "unused_frame_indices": [
+              51
+            ]
+          },
+          {
+            "path": "train/Car/0222_23.mat",
+            "frames": 23,
+            "draws": 71,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Car/0225_48.mat",
+            "frames": 48,
+            "draws": 76,
+            "unused_frame_indices": [
+              47
+            ]
+          },
+          {
+            "path": "train/Car/0232_41.mat",
+            "frames": 41,
+            "draws": 90,
+            "unused_frame_indices": [
+              40
+            ]
+          }
+        ]
+      },
+      "full_training_coverage": {
+        "total_draws": 184590,
+        "mats_used": 964,
+        "mats_unused": 0,
+        "min_draws_per_mat": 93,
+        "max_draws_per_mat": 257,
+        "total_frames": 37389,
+        "frames_used": 37379,
+        "frames_unused": 10,
+        "total_valid_starts": 28713,
+        "unique_starts_used": 28527,
+        "unused_frame_details": [
+          {
+            "path": "train/UAV2/0045_61.mat",
+            "frames": 61,
+            "draws": 212,
+            "unused_frame_indices": [
+              60
+            ]
+          },
+          {
+            "path": "train/UAV4/0025_64.mat",
+            "frames": 64,
+            "draws": 205,
+            "unused_frame_indices": [
+              63
+            ]
+          },
+          {
+            "path": "train/Bird/0059_46.mat",
+            "frames": 46,
+            "draws": 151,
+            "unused_frame_indices": [
+              0
+            ]
+          },
+          {
+            "path": "train/Bird/0091_55.mat",
+            "frames": 55,
+            "draws": 131,
+            "unused_frame_indices": [
+              54
+            ]
+          },
+          {
+            "path": "train/Bird/0149_57.mat",
+            "frames": 57,
+            "draws": 145,
+            "unused_frame_indices": [
+              56
+            ]
+          },
+          {
+            "path": "train/Bird/0156_48.mat",
+            "frames": 48,
+            "draws": 178,
+            "unused_frame_indices": [
+              47
+            ]
+          },
+          {
+            "path": "train/Birds/0075_60.mat",
+            "frames": 60,
+            "draws": 219,
+            "unused_frame_indices": [
+              59
+            ]
+          },
+          {
+            "path": "train/Car/0001_37.mat",
+            "frames": 37,
+            "draws": 94,
+            "unused_frame_indices": [
+              36
+            ]
+          },
+          {
+            "path": "train/Car/0225_48.mat",
+            "frames": 48,
+            "draws": 95,
+            "unused_frame_indices": [
+              47
+            ]
+          },
+          {
+            "path": "train/Car/0232_41.mat",
+            "frames": 41,
+            "draws": 119,
+            "unused_frame_indices": [
+              40
+            ]
+          }
+        ]
+      },
+      "per_epoch": [
+        {
+          "epoch": 1,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 2,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 3,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 4,
+          "mats_unused_in_epoch": 3
+        },
+        {
+          "epoch": 5,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 6,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 7,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 8,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 9,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 10,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 11,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 12,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 13,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 14,
+          "mats_unused_in_epoch": 8
+        },
+        {
+          "epoch": 15,
+          "mats_unused_in_epoch": 0
+        },
+        {
+          "epoch": 16,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 17,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 18,
+          "mats_unused_in_epoch": 8
+        },
+        {
+          "epoch": 19,
+          "mats_unused_in_epoch": 7
+        },
+        {
+          "epoch": 20,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 21,
+          "mats_unused_in_epoch": 6
+        },
+        {
+          "epoch": 22,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 23,
+          "mats_unused_in_epoch": 5
+        },
+        {
+          "epoch": 24,
+          "mats_unused_in_epoch": 4
+        },
+        {
+          "epoch": 25,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 26,
+          "mats_unused_in_epoch": 7
+        },
+        {
+          "epoch": 27,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 28,
+          "mats_unused_in_epoch": 2
+        },
+        {
+          "epoch": 29,
+          "mats_unused_in_epoch": 9
+        },
+        {
+          "epoch": 30,
+          "mats_unused_in_epoch": 4
+        }
+      ]
+    }
+  },
+  "theoretical_mat_unused_expectation": 1.0773565164529709e-49,
+  "theoretical_worst_single_mat_unused_probability": 6.1917041175458095e-52,
+  "total_draws_per_run": 184590,
+  "ABC_fixed_window_coverage": {
+    "total_frames": 37389,
+    "frames_not_in_any_training_window": 1804,
+    "mats_with_uncovered_suffix": 742,
+    "reason": "Fixed stride 5 omits the final (T-10)%5 frames; standardization statistics still use all training frames."
+  }
+}

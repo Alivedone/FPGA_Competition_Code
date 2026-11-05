@@ -1,0 +1,515 @@
+{
+  "status": "independently_verified",
+  "protocol": {
+    "status": "frozen",
+    "client_date": "2026-10-28",
+    "heldout_used": true,
+    "previously_inspected_fixed_test": true,
+    "training_or_calibration": false,
+    "track_used": false,
+    "partition": "heldout",
+    "sequences": 250,
+    "frames": 9489,
+    "windows": 7239,
+    "window": 10,
+    "stride": 1,
+    "classes": [
+      "UAV1",
+      "UAV2",
+      "UAV3",
+      "UAV4",
+      "Bird",
+      "Birds",
+      "Wing Bird",
+      "Rotate",
+      "Car"
+    ],
+    "normalization": {
+      "mean": 137.53303464225368,
+      "std": 10.262633165907761
+    },
+    "inputs_already_normalized": true,
+    "inputs_sha256": "253552e5989d8851c259d89bf21ce4e12bc242275206e254aa1cff60212fefc5",
+    "metadata_sha256": "bddb88c525371252798be223227b2ad738422946dd31bfd74fece0376feb3571",
+    "model_sha256": "2e1672e9c600d4e722c8cded5b37017bae2676f4e1de4240349a45121a497a32",
+    "weights_sha256": "374556f9e0403398e986121e247bd12a485f3690e79a15db7516dccdb006face",
+    "original_binary_sha256": "d4e9e19a74341e7e1abc08ac42f286b8f516cf4f0714ebdb01065d970a99a357",
+    "F_binary_sha256": "7c8fe0904260858dfba8fe5820f20b8a0afb2218b74e657e11e62dda3464dc52",
+    "aggregation": "FP32 per-window softmax; FP64 equal-weight mean per MAT; reset each MAT",
+    "input_schema": {
+      "frames": {
+        "shape": [
+          9489,
+          512
+        ],
+        "dtype": "float32"
+      },
+      "frame_offsets": {
+        "shape": [
+          251
+        ],
+        "dtype": "int32"
+      },
+      "offsets": {
+        "shape": [
+          251
+        ],
+        "dtype": "int32"
+      },
+      "sequence_labels": {
+        "shape": [
+          250
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  "engines": {
+    "original_peer": {
+      "window": {
+        "samples": 7239,
+        "correct": 6167,
+        "accuracy": 0.8519132476861445,
+        "macro_f1": 0.8513946244340496,
+        "confusion_matrix": [
+          [
+            688,
+            46,
+            44,
+            14,
+            0,
+            3,
+            1,
+            12,
+            12
+          ],
+          [
+            53,
+            677,
+            20,
+            37,
+            9,
+            0,
+            0,
+            5,
+            8
+          ],
+          [
+            11,
+            42,
+            594,
+            152,
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            15,
+            84,
+            62,
+            624,
+            9,
+            6,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            84,
+            4,
+            901,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            4,
+            0,
+            20,
+            701,
+            22,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            118,
+            51,
+            618,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            865,
+            4
+          ],
+          [
+            12,
+            12,
+            0,
+            12,
+            3,
+            38,
+            0,
+            11,
+            499
+          ]
+        ]
+      },
+      "sequence": {
+        "samples": 250,
+        "correct": 230,
+        "accuracy": 0.92,
+        "macro_f1": 0.9140627321105571,
+        "confusion_matrix": [
+          [
+            23,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            21,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            19,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            23,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            27,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            23,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            22,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            28,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            44
+          ]
+        ]
+      },
+      "wall_seconds": 200.31109598000057
+    },
+    "F": {
+      "window": {
+        "samples": 7239,
+        "correct": 6167,
+        "accuracy": 0.8519132476861445,
+        "macro_f1": 0.8513946244340496,
+        "confusion_matrix": [
+          [
+            688,
+            46,
+            44,
+            14,
+            0,
+            3,
+            1,
+            12,
+            12
+          ],
+          [
+            53,
+            677,
+            20,
+            37,
+            9,
+            0,
+            0,
+            5,
+            8
+          ],
+          [
+            11,
+            42,
+            594,
+            152,
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            15,
+            84,
+            62,
+            624,
+            9,
+            6,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            84,
+            4,
+            901,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            4,
+            0,
+            20,
+            701,
+            22,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            118,
+            51,
+            618,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            865,
+            4
+          ],
+          [
+            12,
+            12,
+            0,
+            12,
+            3,
+            38,
+            0,
+            11,
+            499
+          ]
+        ]
+      },
+      "sequence": {
+        "samples": 250,
+        "correct": 230,
+        "accuracy": 0.92,
+        "macro_f1": 0.9140627321105571,
+        "confusion_matrix": [
+          [
+            23,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            21,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            19,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            23,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            27,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            23,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            22,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            28,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            44
+          ]
+        ]
+      },
+      "wall_seconds": 112.01031927999975
+    }
+  },
+  "paired_difference": {
+    "max_abs_logit_error": 0.0,
+    "elementwise_equal": true,
+    "bitwise_equal": true,
+    "changed_window_predictions": 0,
+    "changed_sequence_predictions": 0,
+    "window_accuracy_percentage_points": 0.0,
+    "sequence_accuracy_percentage_points": 0.0
+  },
+  "no_retraining_or_calibration": true,
+  "protected_releases_unchanged": true,
+  "scope": "Same fixed previously inspected 250-MAT heldout retest, not a fresh blind test; real unmodified PS TCP service + PL bridge + NPU; same FP32 softmax/FP64 MAT probability mean."
+}

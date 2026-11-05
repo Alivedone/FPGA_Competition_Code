@@ -1,0 +1,371 @@
+{
+  "status": "verified",
+  "client_date": "2026-10-28",
+  "formal": {
+    "A": {
+      "variant": "A",
+      "order": "cycle",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": true,
+      "sync_each_op": true,
+      "triple_output_verify": true,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 7.113975240740741,
+        "median_ms": 7.10242,
+        "p95_ms": 7.153057,
+        "p99_ms": 7.232446,
+        "max_ms": 10.62832
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 11.870184527777777,
+        "median_ms": 11.855455,
+        "p95_ms": 11.932260999999999,
+        "p99_ms": 12.0073728,
+        "max_ms": 15.41461
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 12.183211138888888,
+        "median_ms": 12.168035,
+        "p95_ms": 12.252614,
+        "p99_ms": 12.328831300000001,
+        "max_ms": 15.73152
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.1561157592592592,
+        "median_ms": 1.155405,
+        "p95_ms": 1.16375,
+        "p99_ms": 1.176952,
+        "max_ms": 1.18966
+      }
+    },
+    "B": {
+      "variant": "B",
+      "order": "cycle",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": true,
+      "sync_each_op": false,
+      "triple_output_verify": true,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 5.690583314814815,
+        "median_ms": 5.6807300000000005,
+        "p95_ms": 5.726172,
+        "p99_ms": 5.7692186,
+        "max_ms": 11.17409
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 10.463311064814816,
+        "median_ms": 10.439219999999999,
+        "p95_ms": 10.5008965,
+        "p99_ms": 10.5763588,
+        "max_ms": 17.60681
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 10.778052768518517,
+        "median_ms": 10.75462,
+        "p95_ms": 10.828256499999998,
+        "p99_ms": 10.9127627,
+        "max_ms": 17.92957
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.1595560092592594,
+        "median_ms": 1.155,
+        "p95_ms": 1.1602435,
+        "p99_ms": 1.1746884,
+        "max_ms": 5.48882
+      }
+    },
+    "C": {
+      "variant": "C",
+      "order": "cycle",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": false,
+      "sync_each_op": false,
+      "triple_output_verify": true,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 5.579600342592593,
+        "median_ms": 5.570235,
+        "p95_ms": 5.610489,
+        "p99_ms": 5.6491388,
+        "max_ms": 11.82736
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 10.338495342592593,
+        "median_ms": 10.32606,
+        "p95_ms": 10.389838999999998,
+        "p99_ms": 10.452349600000002,
+        "max_ms": 16.60908
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 10.653916314814815,
+        "median_ms": 10.640645,
+        "p95_ms": 10.7123165,
+        "p99_ms": 10.7897385,
+        "max_ms": 16.94179
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.1555141018518518,
+        "median_ms": 1.1547999999999998,
+        "p95_ms": 1.160735,
+        "p99_ms": 1.1768202,
+        "max_ms": 1.18369
+      }
+    },
+    "D": {
+      "variant": "D",
+      "order": "cycle",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": true,
+      "sync_each_op": true,
+      "triple_output_verify": false,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 7.084932222222222,
+        "median_ms": 7.069255,
+        "p95_ms": 7.1167615,
+        "p99_ms": 7.165406,
+        "max_ms": 16.30325
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 11.788775787037038,
+        "median_ms": 11.769655,
+        "p95_ms": 11.844388,
+        "p99_ms": 11.9182891,
+        "max_ms": 21.03276
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 12.1013305,
+        "median_ms": 12.081175,
+        "p95_ms": 12.163939,
+        "p99_ms": 12.246221,
+        "max_ms": 21.36615
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.155316527777778,
+        "median_ms": 1.15472,
+        "p95_ms": 1.1588809999999998,
+        "p99_ms": 1.1749196,
+        "max_ms": 1.19735
+      }
+    },
+    "E": {
+      "variant": "E",
+      "order": "cycle",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": true,
+      "sync_each_op": true,
+      "triple_output_verify": true,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 7.0953989166666664,
+        "median_ms": 7.07766,
+        "p95_ms": 7.122548,
+        "p99_ms": 7.292879300000002,
+        "max_ms": 14.39784
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 11.592824324074074,
+        "median_ms": 11.5703,
+        "p95_ms": 11.6350365,
+        "p99_ms": 11.9515688,
+        "max_ms": 19.07005
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 11.911234851851852,
+        "median_ms": 11.888625,
+        "p95_ms": 11.960122,
+        "p99_ms": 12.287969400000005,
+        "max_ms": 19.4005
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.1569002129629629,
+        "median_ms": 1.15623,
+        "p95_ms": 1.160992,
+        "p99_ms": 1.1743306,
+        "max_ms": 1.21635
+      }
+    },
+    "F": {
+      "variant": "F",
+      "order": "cycle",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": false,
+      "sync_each_op": false,
+      "triple_output_verify": true,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 5.5664126666666665,
+        "median_ms": 5.559945,
+        "p95_ms": 5.6009515,
+        "p99_ms": 5.6425851,
+        "max_ms": 7.98777
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 10.051944351851851,
+        "median_ms": 10.04378,
+        "p95_ms": 10.104125,
+        "p99_ms": 10.1629267,
+        "max_ms": 12.49863
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 10.371715222222223,
+        "median_ms": 10.361245,
+        "p95_ms": 10.4258825,
+        "p99_ms": 10.488524199999999,
+        "max_ms": 12.81739
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.154568425925926,
+        "median_ms": 1.154035,
+        "p95_ms": 1.1585109999999998,
+        "p99_ms": 1.1702052,
+        "max_ms": 1.17952
+      }
+    }
+  },
+  "stress": {
+    "stress_repeat": {
+      "variant": "F",
+      "order": "repeat",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": false,
+      "sync_each_op": false,
+      "triple_output_verify": true,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 5.5757956944444445,
+        "median_ms": 5.567245,
+        "p95_ms": 5.618434000000001,
+        "p99_ms": 5.690108599999999,
+        "max_ms": 8.30035
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 10.069277842592593,
+        "median_ms": 10.05824,
+        "p95_ms": 10.1302055,
+        "p99_ms": 10.2194926,
+        "max_ms": 12.80348
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 10.387554527777779,
+        "median_ms": 10.376059999999999,
+        "p95_ms": 10.465023500000001,
+        "p99_ms": 10.554728800000001,
+        "max_ms": 13.16022
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.155566425925926,
+        "median_ms": 1.15474,
+        "p95_ms": 1.162854,
+        "p99_ms": 1.1741848,
+        "max_ms": 1.19855
+      }
+    },
+    "stress_aba": {
+      "variant": "F",
+      "order": "aba",
+      "requests": 1080,
+      "max_abs_error": 0.0,
+      "callbacks": false,
+      "sync_each_op": false,
+      "triple_output_verify": true,
+      "forward": {
+        "count": 1080,
+        "mean_ms": 5.5890999537037045,
+        "median_ms": 5.578135,
+        "p95_ms": 5.629168,
+        "p99_ms": 5.6724991,
+        "max_ms": 12.29379
+      },
+      "hardware_window": {
+        "count": 1080,
+        "mean_ms": 10.08094611111111,
+        "median_ms": 10.065729999999999,
+        "p95_ms": 10.146742999999999,
+        "p99_ms": 10.2086184,
+        "max_ms": 16.79115
+      },
+      "request": {
+        "count": 1080,
+        "mean_ms": 10.399348925925926,
+        "median_ms": 10.384039999999999,
+        "p95_ms": 10.4738765,
+        "p99_ms": 10.528537,
+        "max_ms": 17.12607
+      },
+      "pl_transfer": {
+        "count": 1080,
+        "mean_ms": 1.156315111111111,
+        "median_ms": 1.1555499999999999,
+        "p95_ms": 1.1618225,
+        "p99_ms": 1.1742552000000002,
+        "max_ms": 1.18901
+      }
+    }
+  },
+  "protocol_compatible": true,
+  "protocol_checks": {
+    "V1": {
+      "status": "passed",
+      "successful_ABA": 3,
+      "invalid_inputs_rejected": 2,
+      "stop_completed": true
+    },
+    "F": {
+      "status": "passed",
+      "successful_ABA": 3,
+      "invalid_inputs_rejected": 2,
+      "stop_completed": true
+    }
+  },
+  "v1_protected_files_unchanged": 8,
+  "ps_pl_source_files_unchanged": [
+    "main.cpp",
+    "service.hpp",
+    "net.hpp",
+    "v2_bridge.hpp",
+    "core.hpp",
+    "model_params.hpp",
+    "output_guard.hpp",
+    "perf_summary.hpp"
+  ],
+  "backup": {
+    "status": "verified",
+    "backup": "source_record/verified_v1_20261028_before_ablation",
+    "archive_sha256": "ee73c5fb7f6d96e1f33d742b21b85bc4a104349bda9158ced982c3c33839f3b8",
+    "files": 1358,
+    "symlinks": 18,
+    "bytes": 221695787
+  },
+  "policy": "Default V1 deployment remains unchanged; F is a separately validated candidate. D is measurement only; repeated-read guards retained in F."
+}

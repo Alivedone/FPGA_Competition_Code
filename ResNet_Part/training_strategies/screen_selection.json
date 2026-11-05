@@ -1,0 +1,10 @@
+{
+  "challenger": "D_adamw_mat_balanced",
+  "selected_by": "development sequence macro-F1, seed 42",
+  "screen_seed": 42,
+  "confirmation_seeds": [
+    43,
+    44
+  ],
+  "heldout_used": false
+}

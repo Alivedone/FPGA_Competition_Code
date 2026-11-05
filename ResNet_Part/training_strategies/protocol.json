@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "created_local": "2026-10-21 11:32:54",
+  "input": "spectrum_only",
+  "track_used": false,
+  "heldout_used": false,
+  "historical_heldout_already_seen": true,
+  "evaluation_note": "Development selection only; historical heldout is not a new blind test.",
+  "normalization": {
+    "spectrum_mean": 137.53303464225368,
+    "spectrum_std": 10.262633165907761
+  },
+  "train_files": 964,
+  "development_files": 241,
+  "classes": [
+    "UAV1",
+    "UAV2",
+    "UAV3",
+    "UAV4",
+    "Bird",
+    "Birds",
+    "Wing Bird",
+    "Rotate",
+    "Car"
+  ],
+  "config": {
+    "version": 1,
+    "model": "resnet34_spectrum",
+    "input": "spectrum_only",
+    "epochs": 30,
+    "batch_size": 64,
+    "screen_seed": 42,
+    "confirmation_seeds": [
+      43,
+      44
+    ],
+    "selection_metric": "development_sequence_macro_f1",
+    "strategies": {
+      "A_adam_fixed": {
+        "optimizer": "adam",
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "schedule": "fixed",
+        "sampling": "fixed_windows"
+      },
+      "B_adam_cosine": {
+        "optimizer": "adam",
+        "lr": 0.001,
+        "weight_decay": 0.0,
+        "schedule": "cosine",
+        "sampling": "fixed_windows"
+      },
+      "C_adamw_cosine": {
+        "optimizer": "adamw",
+        "lr": 0.001,
+        "weight_decay": 0.01,
+        "schedule": "cosine",
+        "sampling": "fixed_windows"
+      },
+      "D_adamw_mat_balanced": {
+        "optimizer": "adamw",
+        "lr": 0.001,
+        "weight_decay": 0.01,
+        "schedule": "cosine",
+        "sampling": "class_then_mat_then_start"
+      }
+    },
+    "minimum_lr": 1e-05,
+    "notes": [
+      "All strategies have identical epoch and optimizer-step budgets; no early stopping.",
+      "A->B isolates learning-rate scheduling; B->C changes optimizer/weight-decay as one regularization package.",
+      "C->D changes the sampling/loss-weighting package: uniform class, uniform MAT within class, uniform valid start, unweighted CE.",
+      "A/B/C retain the historical inverse-window-class-frequency weighted CE. D does not apply those weights a second time.",
+      "Screen four strategies at seed 42; confirm the highest-F1 challenger and A at seeds 43/44. Do not pick a deployment checkpoint or evaluate heldout automatically.",
+      "Global train-only scalar normalization, existing MAT split and 10x512 input remain frozen. No track input, spectral shifts, log transform or amplitude scaling."
+    ]
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "torch_version": "2.8.0+cu129",
+  "cuda_build": "12.9",
+  "fp32": {
+    "amp": false,
+    "matmul_tf32": false,
+    "cudnn_tf32": false,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false
+  },
+  "source_sha256": {
+    "Code\\spectrum_training.py": "7cc7414e7412a62d36bd978792edb2ae63706144012eafdde0e2c4a270062327",
+    "Code\\model.py": "b572c57f5d17ad20ad199265464833bc77355f87bf5332ae8d5102ab95cb2e41",
+    "Code\\heldout_metrics.py": "3ce3badfeb0951a20d7bbc58f33cc8db8e4377f9b0f96b4cc68f5d4bfbe14eb6",
+    "Config\\spectrum_training_strategies.json": "fd50a24410121df822bfb81d205d7dcb10f26a4cd92f6ab3e70aa6e982dfb363"
+  },
+  "protected_sha256": {
+    "artifacts/manifest.json": "ad3fb9c597acba599a1a3e938c27de8afab50ddfe998b4bd72c0c590028b5646",
+    "artifacts/deep_spectrum/resnet34_spectrum_seed42.pt": "4bb58edba9468cc9b4250c8140fefa229583c43bdd3fe3a16acefc839e9a7c61",
+    "artifacts/npu_resnet34/runtime_C/frozen_C.json": "e7f4619ab7bd40f2ef186ae663f4f13546880f8c6fb40a6a85dd4718e492142d",
+    "artifacts/npu_resnet34/calibration_selection/selected_candidate.json": "084a43d763e75fc309108b958d39eefd05f564c85985af222c43f67c487b66c0",
+    "artifacts/npu_resnet34/calibration_selection/C_representative54/icraft/ResNet34_radar_ZG.json": "c8af71860e7da108f548875d9316495f1b57daf12f3ea0c7d335333052cc4c26",
+    "artifacts/npu_resnet34/calibration_selection/C_representative54/icraft/ResNet34_radar_ZG.raw": "5d7999b2eac9ff6a06946cfb16888fdfb6057cfc26d0e95d4afcb7804e72c10d"
+  }
+}

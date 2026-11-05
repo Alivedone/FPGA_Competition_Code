@@ -1,0 +1,14 @@
+{
+  "callbacks": true,
+  "distinct_windows": 108,
+  "input_order": "cycle",
+  "max_abs_error": 0.0,
+  "pl_input_verify": true,
+  "requests": 1080,
+  "status": "passed",
+  "sync_each_op": true,
+  "trace_runtime": false,
+  "triple_output_verify": true,
+  "variant": "E",
+  "warmup": 54
+}

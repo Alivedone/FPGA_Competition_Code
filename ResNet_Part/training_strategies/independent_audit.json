@@ -1,0 +1,87 @@
+{
+  "checked_runs": [
+    {
+      "strategy": "A_adam_fixed",
+      "seed": 42,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    },
+    {
+      "strategy": "A_adam_fixed",
+      "seed": 43,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    },
+    {
+      "strategy": "A_adam_fixed",
+      "seed": 44,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    },
+    {
+      "strategy": "B_adam_cosine",
+      "seed": 42,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    },
+    {
+      "strategy": "C_adamw_cosine",
+      "seed": 42,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    },
+    {
+      "strategy": "D_adamw_mat_balanced",
+      "seed": 42,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    },
+    {
+      "strategy": "D_adamw_mat_balanced",
+      "seed": 43,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    },
+    {
+      "strategy": "D_adamw_mat_balanced",
+      "seed": 44,
+      "metrics_verified": true,
+      "checkpoint_verified": true,
+      "selection_verified": true
+    }
+  ],
+  "protected_baselines_unchanged": true,
+  "paired_differences": [
+    {
+      "seed": 42,
+      "screen_seed": true,
+      "sequence_accuracy_difference_pp": 0.8298755186722073,
+      "sequence_f1_difference_pp": 1.1725108390235217,
+      "window_accuracy_difference_pp": 4.037448800468113
+    },
+    {
+      "seed": 43,
+      "screen_seed": false,
+      "sequence_accuracy_difference_pp": 0.8298755186721962,
+      "sequence_f1_difference_pp": 0.6293374370936244,
+      "window_accuracy_difference_pp": 3.6132241076653027
+    },
+    {
+      "seed": 44,
+      "screen_seed": false,
+      "sequence_accuracy_difference_pp": 2.0746887966805017,
+      "sequence_f1_difference_pp": 2.273236606483253,
+      "window_accuracy_difference_pp": 0.9801053247513125
+    }
+  ],
+  "track_used": false,
+  "heldout_used": false,
+  "note": "Independent probability/CM/metric recomputation; not a new training or test run."
+}

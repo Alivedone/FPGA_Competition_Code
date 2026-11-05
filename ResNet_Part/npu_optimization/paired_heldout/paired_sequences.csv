@@ -1,0 +1,251 @@
+﻿index,path,truth,original_prediction,F_prediction,original_correct,F_correct,windows
+0,validation/UAV1/0001_61.mat,UAV1,UAV1,UAV1,True,True,52
+1,validation/UAV1/0002_63.mat,UAV1,UAV1,UAV1,True,True,54
+2,validation/UAV1/0003_34.mat,UAV1,UAV1,UAV1,True,True,25
+3,validation/UAV1/0004_41.mat,UAV1,UAV1,UAV1,True,True,32
+4,validation/UAV1/0005_38.mat,UAV1,UAV1,UAV1,True,True,29
+5,validation/UAV1/0006_54.mat,UAV1,UAV1,UAV1,True,True,45
+6,validation/UAV1/0007_35.mat,UAV1,UAV1,UAV1,True,True,26
+7,validation/UAV1/0008_38.mat,UAV1,UAV1,UAV1,True,True,29
+8,validation/UAV1/0009_45.mat,UAV1,UAV1,UAV1,True,True,36
+9,validation/UAV1/0010_58.mat,UAV1,UAV1,UAV1,True,True,49
+10,validation/UAV1/0011_36.mat,UAV1,UAV1,UAV1,True,True,27
+11,validation/UAV1/0012_52.mat,UAV1,UAV1,UAV1,True,True,43
+12,validation/UAV1/0013_37.mat,UAV1,UAV1,UAV1,True,True,28
+13,validation/UAV1/0014_37.mat,UAV1,UAV1,UAV1,True,True,28
+14,validation/UAV1/0015_37.mat,UAV1,UAV1,UAV1,True,True,28
+15,validation/UAV1/0016_41.mat,UAV1,UAV1,UAV1,True,True,32
+16,validation/UAV1/0017_45.mat,UAV1,UAV1,UAV1,True,True,36
+17,validation/UAV1/0018_31.mat,UAV1,Rotate,Rotate,False,False,22
+18,validation/UAV1/0019_33.mat,UAV1,Car,Car,False,False,24
+19,validation/UAV1/0020_44.mat,UAV1,UAV1,UAV1,True,True,35
+20,validation/UAV1/0021_38.mat,UAV1,UAV1,UAV1,True,True,29
+21,validation/UAV1/0022_41.mat,UAV1,UAV1,UAV1,True,True,32
+22,validation/UAV1/0023_44.mat,UAV1,UAV1,UAV1,True,True,35
+23,validation/UAV1/0024_35.mat,UAV1,UAV1,UAV1,True,True,26
+24,validation/UAV1/0025_27.mat,UAV1,UAV1,UAV1,True,True,18
+25,validation/UAV2/0001_41.mat,UAV2,UAV2,UAV2,True,True,32
+26,validation/UAV2/0002_59.mat,UAV2,UAV2,UAV2,True,True,50
+27,validation/UAV2/0003_35.mat,UAV2,UAV1,UAV1,False,False,26
+28,validation/UAV2/0004_40.mat,UAV2,UAV2,UAV2,True,True,31
+29,validation/UAV2/0005_42.mat,UAV2,UAV2,UAV2,True,True,33
+30,validation/UAV2/0006_31.mat,UAV2,UAV2,UAV2,True,True,22
+31,validation/UAV2/0007_42.mat,UAV2,UAV2,UAV2,True,True,33
+32,validation/UAV2/0008_37.mat,UAV2,UAV2,UAV2,True,True,28
+33,validation/UAV2/0009_46.mat,UAV2,UAV2,UAV2,True,True,37
+34,validation/UAV2/0010_31.mat,UAV2,UAV2,UAV2,True,True,22
+35,validation/UAV2/0011_38.mat,UAV2,UAV4,UAV4,False,False,29
+36,validation/UAV2/0012_32.mat,UAV2,UAV4,UAV4,False,False,23
+37,validation/UAV2/0013_41.mat,UAV2,UAV2,UAV2,True,True,32
+38,validation/UAV2/0014_42.mat,UAV2,UAV2,UAV2,True,True,33
+39,validation/UAV2/0015_43.mat,UAV2,UAV2,UAV2,True,True,34
+40,validation/UAV2/0016_49.mat,UAV2,UAV2,UAV2,True,True,40
+41,validation/UAV2/0017_36.mat,UAV2,UAV2,UAV2,True,True,27
+42,validation/UAV2/0018_42.mat,UAV2,UAV2,UAV2,True,True,33
+43,validation/UAV2/0019_27.mat,UAV2,UAV3,UAV3,False,False,18
+44,validation/UAV2/0020_46.mat,UAV2,UAV2,UAV2,True,True,37
+45,validation/UAV2/0021_44.mat,UAV2,UAV2,UAV2,True,True,35
+46,validation/UAV2/0022_36.mat,UAV2,UAV2,UAV2,True,True,27
+47,validation/UAV2/0023_43.mat,UAV2,UAV2,UAV2,True,True,34
+48,validation/UAV2/0024_41.mat,UAV2,UAV2,UAV2,True,True,32
+49,validation/UAV2/0025_70.mat,UAV2,UAV2,UAV2,True,True,61
+50,validation/UAV3/0001_37.mat,UAV3,UAV4,UAV4,False,False,28
+51,validation/UAV3/0002_43.mat,UAV3,UAV3,UAV3,True,True,34
+52,validation/UAV3/0003_43.mat,UAV3,UAV3,UAV3,True,True,34
+53,validation/UAV3/0004_28.mat,UAV3,UAV3,UAV3,True,True,19
+54,validation/UAV3/0005_62.mat,UAV3,UAV3,UAV3,True,True,53
+55,validation/UAV3/0006_35.mat,UAV3,UAV3,UAV3,True,True,26
+56,validation/UAV3/0007_37.mat,UAV3,UAV3,UAV3,True,True,28
+57,validation/UAV3/0008_38.mat,UAV3,UAV4,UAV4,False,False,29
+58,validation/UAV3/0009_34.mat,UAV3,UAV2,UAV2,False,False,25
+59,validation/UAV3/0010_31.mat,UAV3,UAV3,UAV3,True,True,22
+60,validation/UAV3/0011_41.mat,UAV3,UAV3,UAV3,True,True,32
+61,validation/UAV3/0012_45.mat,UAV3,UAV3,UAV3,True,True,36
+62,validation/UAV3/0013_37.mat,UAV3,UAV3,UAV3,True,True,28
+63,validation/UAV3/0014_41.mat,UAV3,UAV3,UAV3,True,True,32
+64,validation/UAV3/0015_42.mat,UAV3,UAV3,UAV3,True,True,33
+65,validation/UAV3/0016_47.mat,UAV3,UAV3,UAV3,True,True,38
+66,validation/UAV3/0017_39.mat,UAV3,UAV4,UAV4,False,False,30
+67,validation/UAV3/0018_60.mat,UAV3,UAV3,UAV3,True,True,51
+68,validation/UAV3/0019_44.mat,UAV3,UAV3,UAV3,True,True,35
+69,validation/UAV3/0020_41.mat,UAV3,UAV3,UAV3,True,True,32
+70,validation/UAV3/0021_44.mat,UAV3,UAV4,UAV4,False,False,35
+71,validation/UAV3/0022_35.mat,UAV3,UAV3,UAV3,True,True,26
+72,validation/UAV3/0023_57.mat,UAV3,UAV3,UAV3,True,True,48
+73,validation/UAV3/0024_57.mat,UAV3,UAV3,UAV3,True,True,48
+74,validation/UAV4/0001_44.mat,UAV4,UAV2,UAV2,False,False,35
+75,validation/UAV4/0002_61.mat,UAV4,UAV2,UAV2,False,False,52
+76,validation/UAV4/0003_44.mat,UAV4,UAV4,UAV4,True,True,35
+77,validation/UAV4/0004_40.mat,UAV4,UAV4,UAV4,True,True,31
+78,validation/UAV4/0005_45.mat,UAV4,UAV4,UAV4,True,True,36
+79,validation/UAV4/0006_43.mat,UAV4,UAV4,UAV4,True,True,34
+80,validation/UAV4/0007_36.mat,UAV4,UAV4,UAV4,True,True,27
+81,validation/UAV4/0008_35.mat,UAV4,UAV4,UAV4,True,True,26
+82,validation/UAV4/0009_40.mat,UAV4,UAV4,UAV4,True,True,31
+83,validation/UAV4/0010_39.mat,UAV4,UAV4,UAV4,True,True,30
+84,validation/UAV4/0011_45.mat,UAV4,UAV4,UAV4,True,True,36
+85,validation/UAV4/0012_33.mat,UAV4,UAV4,UAV4,True,True,24
+86,validation/UAV4/0013_34.mat,UAV4,UAV4,UAV4,True,True,25
+87,validation/UAV4/0014_39.mat,UAV4,UAV4,UAV4,True,True,30
+88,validation/UAV4/0015_41.mat,UAV4,UAV4,UAV4,True,True,32
+89,validation/UAV4/0016_43.mat,UAV4,UAV4,UAV4,True,True,34
+90,validation/UAV4/0017_35.mat,UAV4,UAV4,UAV4,True,True,26
+91,validation/UAV4/0018_44.mat,UAV4,UAV4,UAV4,True,True,35
+92,validation/UAV4/0019_41.mat,UAV4,UAV4,UAV4,True,True,32
+93,validation/UAV4/0020_38.mat,UAV4,UAV4,UAV4,True,True,29
+94,validation/UAV4/0021_36.mat,UAV4,UAV4,UAV4,True,True,27
+95,validation/UAV4/0022_45.mat,UAV4,UAV4,UAV4,True,True,36
+96,validation/UAV4/0023_42.mat,UAV4,UAV4,UAV4,True,True,33
+97,validation/UAV4/0024_41.mat,UAV4,UAV4,UAV4,True,True,32
+98,validation/UAV4/0025_43.mat,UAV4,UAV4,UAV4,True,True,34
+99,validation/Bird/0001_43.mat,Bird,Bird,Bird,True,True,34
+100,validation/Bird/0002_36.mat,Bird,Bird,Bird,True,True,27
+101,validation/Bird/0003_40.mat,Bird,Bird,Bird,True,True,31
+102,validation/Bird/0004_46.mat,Bird,Bird,Bird,True,True,37
+103,validation/Bird/0005_36.mat,Bird,Bird,Bird,True,True,27
+104,validation/Bird/0006_49.mat,Bird,UAV3,UAV3,False,False,40
+105,validation/Bird/0007_51.mat,Bird,Bird,Bird,True,True,42
+106,validation/Bird/0008_39.mat,Bird,Bird,Bird,True,True,30
+107,validation/Bird/0009_44.mat,Bird,Bird,Bird,True,True,35
+108,validation/Bird/0010_40.mat,Bird,UAV3,UAV3,False,False,31
+109,validation/Bird/0011_35.mat,Bird,Bird,Bird,True,True,26
+110,validation/Bird/0012_40.mat,Bird,Bird,Bird,True,True,31
+111,validation/Bird/0013_35.mat,Bird,Bird,Bird,True,True,26
+112,validation/Bird/0014_40.mat,Bird,Bird,Bird,True,True,31
+113,validation/Bird/0015_63.mat,Bird,Bird,Bird,True,True,54
+114,validation/Bird/0016_26.mat,Bird,Bird,Bird,True,True,17
+115,validation/Bird/0017_40.mat,Bird,UAV3,UAV3,False,False,31
+116,validation/Bird/0018_37.mat,Bird,Bird,Bird,True,True,28
+117,validation/Bird/0019_45.mat,Bird,Bird,Bird,True,True,36
+118,validation/Bird/0020_58.mat,Bird,Bird,Bird,True,True,49
+119,validation/Bird/0021_39.mat,Bird,Bird,Bird,True,True,30
+120,validation/Bird/0022_28.mat,Bird,Bird,Bird,True,True,19
+121,validation/Bird/0023_25.mat,Bird,Bird,Bird,True,True,16
+122,validation/Bird/0024_40.mat,Bird,Bird,Bird,True,True,31
+123,validation/Bird/0025_42.mat,Bird,Bird,Bird,True,True,33
+124,validation/Bird/0026_65.mat,Bird,Bird,Bird,True,True,56
+125,validation/Bird/0027_56.mat,Bird,Bird,Bird,True,True,47
+126,validation/Bird/0028_44.mat,Bird,Bird,Bird,True,True,35
+127,validation/Bird/0029_41.mat,Bird,Bird,Bird,True,True,32
+128,validation/Bird/0030_36.mat,Bird,Bird,Bird,True,True,27
+129,validation/Birds/0001_36.mat,Birds,Birds,Birds,True,True,27
+130,validation/Birds/0002_47.mat,Birds,Wing Bird,Wing Bird,False,False,38
+131,validation/Birds/0003_65.mat,Birds,Birds,Birds,True,True,56
+132,validation/Birds/0004_35.mat,Birds,Birds,Birds,True,True,26
+133,validation/Birds/0005_36.mat,Birds,Birds,Birds,True,True,27
+134,validation/Birds/0006_49.mat,Birds,Birds,Birds,True,True,40
+135,validation/Birds/0007_35.mat,Birds,Birds,Birds,True,True,26
+136,validation/Birds/0008_39.mat,Birds,Birds,Birds,True,True,30
+137,validation/Birds/0009_53.mat,Birds,Birds,Birds,True,True,44
+138,validation/Birds/0010_42.mat,Birds,Birds,Birds,True,True,33
+139,validation/Birds/0011_40.mat,Birds,Birds,Birds,True,True,31
+140,validation/Birds/0012_36.mat,Birds,Birds,Birds,True,True,27
+141,validation/Birds/0013_60.mat,Birds,Birds,Birds,True,True,51
+142,validation/Birds/0014_56.mat,Birds,Birds,Birds,True,True,47
+143,validation/Birds/0015_46.mat,Birds,Birds,Birds,True,True,37
+144,validation/Birds/0016_26.mat,Birds,Birds,Birds,True,True,17
+145,validation/Birds/0017_39.mat,Birds,Birds,Birds,True,True,30
+146,validation/Birds/0018_45.mat,Birds,Birds,Birds,True,True,36
+147,validation/Birds/0019_31.mat,Birds,Birds,Birds,True,True,22
+148,validation/Birds/0020_37.mat,Birds,Birds,Birds,True,True,28
+149,validation/Birds/0021_34.mat,Birds,Birds,Birds,True,True,25
+150,validation/Birds/0022_30.mat,Birds,Birds,Birds,True,True,21
+151,validation/Birds/0023_36.mat,Birds,Birds,Birds,True,True,27
+152,validation/Birds/0024_30.mat,Birds,Birds,Birds,True,True,21
+153,validation/Wing Bird/0001_37.mat,Wing Bird,Wing Bird,Wing Bird,True,True,28
+154,validation/Wing Bird/0002_35.mat,Wing Bird,Wing Bird,Wing Bird,True,True,26
+155,validation/Wing Bird/0003_33.mat,Wing Bird,Wing Bird,Wing Bird,True,True,24
+156,validation/Wing Bird/0004_37.mat,Wing Bird,Wing Bird,Wing Bird,True,True,28
+157,validation/Wing Bird/0005_46.mat,Wing Bird,Wing Bird,Wing Bird,True,True,37
+158,validation/Wing Bird/0006_43.mat,Wing Bird,Wing Bird,Wing Bird,True,True,34
+159,validation/Wing Bird/0007_52.mat,Wing Bird,Birds,Birds,False,False,43
+160,validation/Wing Bird/0008_40.mat,Wing Bird,Wing Bird,Wing Bird,True,True,31
+161,validation/Wing Bird/0009_40.mat,Wing Bird,Wing Bird,Wing Bird,True,True,31
+162,validation/Wing Bird/0010_33.mat,Wing Bird,Wing Bird,Wing Bird,True,True,24
+163,validation/Wing Bird/0011_37.mat,Wing Bird,Wing Bird,Wing Bird,True,True,28
+164,validation/Wing Bird/0012_38.mat,Wing Bird,Wing Bird,Wing Bird,True,True,29
+165,validation/Wing Bird/0013_39.mat,Wing Bird,Wing Bird,Wing Bird,True,True,30
+166,validation/Wing Bird/0014_62.mat,Wing Bird,Wing Bird,Wing Bird,True,True,53
+167,validation/Wing Bird/0015_39.mat,Wing Bird,Wing Bird,Wing Bird,True,True,30
+168,validation/Wing Bird/0016_43.mat,Wing Bird,Wing Bird,Wing Bird,True,True,34
+169,validation/Wing Bird/0017_41.mat,Wing Bird,Wing Bird,Wing Bird,True,True,32
+170,validation/Wing Bird/0018_30.mat,Wing Bird,Wing Bird,Wing Bird,True,True,21
+171,validation/Wing Bird/0019_41.mat,Wing Bird,Wing Bird,Wing Bird,True,True,32
+172,validation/Wing Bird/0020_46.mat,Wing Bird,Wing Bird,Wing Bird,True,True,37
+173,validation/Wing Bird/0021_35.mat,Wing Bird,Wing Bird,Wing Bird,True,True,26
+174,validation/Wing Bird/0022_59.mat,Wing Bird,Wing Bird,Wing Bird,True,True,50
+175,validation/Wing Bird/0023_42.mat,Wing Bird,Wing Bird,Wing Bird,True,True,33
+176,validation/Wing Bird/0024_60.mat,Wing Bird,Bird,Bird,False,False,51
+177,validation/Rotate/0001_41.mat,Rotate,Rotate,Rotate,True,True,32
+178,validation/Rotate/0002_44.mat,Rotate,Rotate,Rotate,True,True,35
+179,validation/Rotate/0003_42.mat,Rotate,Rotate,Rotate,True,True,33
+180,validation/Rotate/0004_48.mat,Rotate,Rotate,Rotate,True,True,39
+181,validation/Rotate/0005_39.mat,Rotate,Rotate,Rotate,True,True,30
+182,validation/Rotate/0006_31.mat,Rotate,Rotate,Rotate,True,True,22
+183,validation/Rotate/0007_38.mat,Rotate,Rotate,Rotate,True,True,29
+184,validation/Rotate/0008_42.mat,Rotate,Rotate,Rotate,True,True,33
+185,validation/Rotate/0009_42.mat,Rotate,Rotate,Rotate,True,True,33
+186,validation/Rotate/0010_38.mat,Rotate,Rotate,Rotate,True,True,29
+187,validation/Rotate/0011_38.mat,Rotate,Rotate,Rotate,True,True,29
+188,validation/Rotate/0012_39.mat,Rotate,Rotate,Rotate,True,True,30
+189,validation/Rotate/0013_46.mat,Rotate,Rotate,Rotate,True,True,37
+190,validation/Rotate/0014_39.mat,Rotate,Rotate,Rotate,True,True,30
+191,validation/Rotate/0015_36.mat,Rotate,Rotate,Rotate,True,True,27
+192,validation/Rotate/0016_38.mat,Rotate,Rotate,Rotate,True,True,29
+193,validation/Rotate/0017_46.mat,Rotate,Rotate,Rotate,True,True,37
+194,validation/Rotate/0018_37.mat,Rotate,Rotate,Rotate,True,True,28
+195,validation/Rotate/0019_39.mat,Rotate,Rotate,Rotate,True,True,30
+196,validation/Rotate/0020_36.mat,Rotate,Rotate,Rotate,True,True,27
+197,validation/Rotate/0021_40.mat,Rotate,Rotate,Rotate,True,True,31
+198,validation/Rotate/0022_44.mat,Rotate,Rotate,Rotate,True,True,35
+199,validation/Rotate/0023_35.mat,Rotate,Rotate,Rotate,True,True,26
+200,validation/Rotate/0024_41.mat,Rotate,Rotate,Rotate,True,True,32
+201,validation/Rotate/0025_37.mat,Rotate,Rotate,Rotate,True,True,28
+202,validation/Rotate/0026_38.mat,Rotate,Rotate,Rotate,True,True,29
+203,validation/Rotate/0027_36.mat,Rotate,Rotate,Rotate,True,True,27
+204,validation/Rotate/0028_53.mat,Rotate,Rotate,Rotate,True,True,44
+205,validation/Car/0001_30.mat,Car,Car,Car,True,True,21
+206,validation/Car/0002_25.mat,Car,Car,Car,True,True,16
+207,validation/Car/0003_37.mat,Car,Car,Car,True,True,28
+208,validation/Car/0004_36.mat,Car,Car,Car,True,True,27
+209,validation/Car/0005_31.mat,Car,Car,Car,True,True,22
+210,validation/Car/0006_30.mat,Car,Car,Car,True,True,21
+211,validation/Car/0007_27.mat,Car,Car,Car,True,True,18
+212,validation/Car/0008_23.mat,Car,Car,Car,True,True,14
+213,validation/Car/0009_23.mat,Car,UAV4,UAV4,False,False,14
+214,validation/Car/0010_24.mat,Car,Car,Car,True,True,15
+215,validation/Car/0011_24.mat,Car,Car,Car,True,True,15
+216,validation/Car/0012_36.mat,Car,Car,Car,True,True,27
+217,validation/Car/0013_15.mat,Car,Car,Car,True,True,6
+218,validation/Car/0014_10.mat,Car,Car,Car,True,True,1
+219,validation/Car/0015_15.mat,Car,Car,Car,True,True,6
+220,validation/Car/0016_15.mat,Car,Car,Car,True,True,6
+221,validation/Car/0017_20.mat,Car,Car,Car,True,True,11
+222,validation/Car/0018_21.mat,Car,Car,Car,True,True,12
+223,validation/Car/0019_37.mat,Car,Car,Car,True,True,28
+224,validation/Car/0020_16.mat,Car,Car,Car,True,True,7
+225,validation/Car/0021_17.mat,Car,Car,Car,True,True,8
+226,validation/Car/0022_28.mat,Car,Car,Car,True,True,19
+227,validation/Car/0023_14.mat,Car,Car,Car,True,True,5
+228,validation/Car/0024_28.mat,Car,Car,Car,True,True,19
+229,validation/Car/0025_23.mat,Car,Car,Car,True,True,14
+230,validation/Car/0026_24.mat,Car,Car,Car,True,True,15
+231,validation/Car/0027_17.mat,Car,Car,Car,True,True,8
+232,validation/Car/0028_13.mat,Car,Car,Car,True,True,4
+233,validation/Car/0029_10.mat,Car,Car,Car,True,True,1
+234,validation/Car/0030_14.mat,Car,Car,Car,True,True,5
+235,validation/Car/0032_14.mat,Car,Car,Car,True,True,5
+236,validation/Car/0033_23.mat,Car,Car,Car,True,True,14
+237,validation/Car/0034_22.mat,Car,Car,Car,True,True,13
+238,validation/Car/0036_27.mat,Car,Car,Car,True,True,18
+239,validation/Car/0037_23.mat,Car,Car,Car,True,True,14
+240,validation/Car/0038_26.mat,Car,Car,Car,True,True,17
+241,validation/Car/0039_20.mat,Car,Car,Car,True,True,11
+242,validation/Car/0040_27.mat,Car,Car,Car,True,True,18
+243,validation/Car/0041_25.mat,Car,Car,Car,True,True,16
+244,validation/Car/0043_16.mat,Car,Car,Car,True,True,7
+245,validation/Car/0044_20.mat,Car,Car,Car,True,True,11
+246,validation/Car/0045_16.mat,Car,Car,Car,True,True,7
+247,validation/Car/0046_18.mat,Car,Car,Car,True,True,9
+248,validation/Car/0047_19.mat,Car,Car,Car,True,True,10
+249,validation/Car/0048_13.mat,Car,Car,Car,True,True,4
