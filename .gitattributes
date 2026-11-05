@@ -1,3 +1,2 @@
-# Keep copied bytes and existing SHA256SUMS stable on Windows/Linux.
+# Preserve archived bytes and file checksums on all platforms.
 * -text
-# All delivered binaries contain real bytes; no mandatory LFS filters.

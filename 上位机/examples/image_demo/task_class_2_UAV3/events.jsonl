@@ -1,1 +1,0 @@
-{"version": 1, "type": "RESULT", "task_id": "offline_image_demo_UAV3", "payload_bytes": 36, "window_index": 0, "start_frame": 0, "window_size": 10, "dtype": "float32_le", "shape": [1, 9], "crc32": "d178ee38", "summary": {"kind": "classification", "class_id": 2, "class_name": "2", "score": 0.9488534082049096}, "physical_execution": false}

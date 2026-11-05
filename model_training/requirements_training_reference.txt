@@ -1,7 +1,0 @@
-# Reference versions from the actual GPU training environment.
-# Install a CUDA-enabled PyTorch build compatible with the machine separately.
-torch==2.8.0
-torchvision==0.23.0
-numpy==2.4.4
-scipy==1.18.0
-# ONNX export can instead use the documented Python3.8 CPU deployment environment.

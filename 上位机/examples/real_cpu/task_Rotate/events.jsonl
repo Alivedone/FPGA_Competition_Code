@@ -1,1 +1,0 @@
-{"version": 1, "type": "RESULT", "task_id": "offline_real_cpu_Rotate", "payload_bytes": 36, "window_index": 0, "start_frame": 0, "window_size": 10, "dtype": "float32_le", "shape": [1, 9], "crc32": "65e247ef", "summary": {"class_id": 7, "class_name": "7", "kind": "classification", "score": 0.9955385363886369}, "physical_execution": false}
