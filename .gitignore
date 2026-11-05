@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.rar
+*.mp4
+*.pt
+*.pth
+*.onnx
+.venv/
+venv/
+.env
+id_rsa*
+id_ed25519*
+validation_runs/
