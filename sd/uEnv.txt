@@ -1,0 +1,8 @@
+baudrate=115200
+bootdelay=3
+fdt_high=0x10000000
+initrd_high=0x10000000
+bootargs=console=ttyPS0,115200n8 earlycon=uart8250,mmio32,0xe0004000 loglevel=8 root=/dev/mmcblk0p2 rootwait rw clk_ignore_unused mem=1024M
+uenvcmd=mmc rescan && fatload mmc 0:1 0x10080000 Image && fatload mmc 0:1 0x11000000 fmqlmp-verify.dtb && booti 0x10080000 - 0x11000000
+loadbit=echo LSS_HSRV2 PL configured by BOOT
+bootcmd=run uenvcmd

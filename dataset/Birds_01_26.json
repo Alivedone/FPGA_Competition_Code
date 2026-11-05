@@ -1,0 +1,41 @@
+{
+  "schema": "LSS_HSR_FRAME",
+  "version": 1,
+  "dtype": "float32",
+  "byte_order": "little-endian",
+  "frame_count": 26,
+  "doppler_bins": 512,
+  "track_features": 5,
+  "values_per_frame": 517,
+  "bytes_per_frame": 2068,
+  "layout": "frame_major_doppler_then_track",
+  "data_file": "Birds_01_26.bin",
+  "source_mat": "validation/Birds/0016_26.mat",
+  "category": "Birds",
+  "split": "validation",
+  "source_sha256": "cf8cb4684a48dfe0a06232c05498ac62d26abe8d9a3373fcb218260d9b0c7a4d",
+  "sha256": "612f5740a7aad42e947c7c99af4fedf99d10511d2a9b6c8cb3fc4069fcdbd8e9",
+  "crc32": "70cf0cc7",
+  "track_columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "track_units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ],
+  "preprocessing": {
+    "doppler": "fixed_training_global_zscore",
+    "track": "none",
+    "mean": 137.53303464225368,
+    "std": 10.262633165907761,
+    "source_rounding": "raw_FP32_first"
+  },
+  "old_512_bin_client_compatible": false
+}

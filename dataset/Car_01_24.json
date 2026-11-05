@@ -1,0 +1,41 @@
+{
+  "schema": "LSS_HSR_FRAME",
+  "version": 1,
+  "dtype": "float32",
+  "byte_order": "little-endian",
+  "frame_count": 24,
+  "doppler_bins": 512,
+  "track_features": 5,
+  "values_per_frame": 517,
+  "bytes_per_frame": 2068,
+  "layout": "frame_major_doppler_then_track",
+  "data_file": "Car_01_24.bin",
+  "source_mat": "validation/Car/0026_24.mat",
+  "category": "Car",
+  "split": "validation",
+  "source_sha256": "bdf04e16a44c005649bbc5f5f4d57e32ede7004a9e56839fe96b88d4bfdea50d",
+  "sha256": "842c0b5135155f24a8d9e7638931037ffb45ca140e8432987114e819f87f96ad",
+  "crc32": "010ea2cc",
+  "track_columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "track_units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ],
+  "preprocessing": {
+    "doppler": "fixed_training_global_zscore",
+    "track": "none",
+    "mean": 137.53303464225368,
+    "std": 10.262633165907761,
+    "source_rounding": "raw_FP32_first"
+  },
+  "old_512_bin_client_compatible": false
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "start_frame": 0,
+  "window_size": 10,
+  "dtype": "float32_le",
+  "shape": [
+    1,
+    10,
+    512,
+    1
+  ],
+  "payload_bytes": 20480,
+  "crc32": "49e7d580",
+  "source_crc32": "2e34a28a",
+  "source_file_bytes": 75776
+}

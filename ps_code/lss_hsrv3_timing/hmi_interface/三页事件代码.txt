@@ -1,0 +1,110 @@
+﻿【Program.s / 初始化（保留原有全局变量声明）】
+bauds=115200
+recmod=0
+bkcmd=3
+page main
+
+【main / 后初始化事件】
+printh 55 AA 01 00 FF FF FF
+
+【main.bHistory / 弹起事件】
+page history
+
+【history / 后初始化事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在加载历史信息"
+tNew.txt=""
+printh 55 AA 02 00 FF FF FF
+
+【history.bHome / 弹起事件】
+page main
+
+【history.bPrev / 弹起事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在查询上一页"
+printh 55 AA 11 00 FF FF FF
+
+【history.bNext / 弹起事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在查询下一页"
+printh 55 AA 12 00 FF FF FF
+
+【history.bRow0 / 弹起事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在查询所选记录"
+printh 55 AA 20 00 FF FF FF
+
+【history.bRow1 / 弹起事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在查询所选记录"
+printh 55 AA 20 01 FF FF FF
+
+【history.bRow2 / 弹起事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在查询所选记录"
+printh 55 AA 20 02 FF FF FF
+
+【history.bRow3 / 弹起事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在查询所选记录"
+printh 55 AA 20 03 FF FF FF
+
+【history.bRow4 / 弹起事件】
+tsw bRow0,0
+tsw bRow1,0
+tsw bRow2,0
+tsw bRow3,0
+tsw bRow4,0
+tsw bPrev,0
+tsw bNext,0
+tCount.txt="正在查询所选记录"
+printh 55 AA 20 04 FF FF FF
+
+【detail / 后初始化事件】
+tHint.txt="正在加载所选记录"
+printh 55 AA 03 00 FF FF FF
+
+【detail.bHistory / 弹起事件】
+page history

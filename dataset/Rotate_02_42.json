@@ -1,0 +1,41 @@
+{
+  "schema": "LSS_HSR_FRAME",
+  "version": 1,
+  "dtype": "float32",
+  "byte_order": "little-endian",
+  "frame_count": 42,
+  "doppler_bins": 512,
+  "track_features": 5,
+  "values_per_frame": 517,
+  "bytes_per_frame": 2068,
+  "layout": "frame_major_doppler_then_track",
+  "data_file": "Rotate_02_42.bin",
+  "source_mat": "validation/Rotate/0008_42.mat",
+  "category": "Rotate",
+  "split": "validation",
+  "source_sha256": "d4144bfcd91dc652b5766469309bc703ac6ad1fd33be0ea850be8345dd8031fa",
+  "sha256": "78305c55188c16541e0151f1342022ae90601d38973912dfe81e95bb71e5a10e",
+  "crc32": "68db7a56",
+  "track_columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "track_units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ],
+  "preprocessing": {
+    "doppler": "fixed_training_global_zscore",
+    "track": "none",
+    "mean": 137.53303464225368,
+    "std": 10.262633165907761,
+    "source_rounding": "raw_FP32_first"
+  },
+  "old_512_bin_client_compatible": false
+}

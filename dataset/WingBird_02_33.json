@@ -1,0 +1,41 @@
+{
+  "schema": "LSS_HSR_FRAME",
+  "version": 1,
+  "dtype": "float32",
+  "byte_order": "little-endian",
+  "frame_count": 33,
+  "doppler_bins": 512,
+  "track_features": 5,
+  "values_per_frame": 517,
+  "bytes_per_frame": 2068,
+  "layout": "frame_major_doppler_then_track",
+  "data_file": "WingBird_02_33.bin",
+  "source_mat": "validation/Wing Bird/0010_33.mat",
+  "category": "Wing Bird",
+  "split": "validation",
+  "source_sha256": "8083a6aa25a5a0258129afd17e04343a8be168e8ab365c80cf074a735de858af",
+  "sha256": "12f77ffc0c8e9f8addeb560afbc7e5bf9227163a9bf12dfcf46ebe22b0f0befa",
+  "crc32": "e1046ada",
+  "track_columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "track_units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ],
+  "preprocessing": {
+    "doppler": "fixed_training_global_zscore",
+    "track": "none",
+    "mean": 137.53303464225368,
+    "std": 10.262633165907761,
+    "source_rounding": "raw_FP32_first"
+  },
+  "old_512_bin_client_compatible": false
+}

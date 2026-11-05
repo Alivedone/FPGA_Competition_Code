@@ -1,0 +1,1 @@
+{"version": 1, "type": "RESULT", "task_id": "offline_real_cpu_Car", "payload_bytes": 36, "window_index": 0, "start_frame": 0, "window_size": 10, "dtype": "float32_le", "shape": [1, 9], "crc32": "22e005d0", "summary": {"class_id": 5, "class_name": "5", "kind": "classification", "score": 0.9951282150134398}, "physical_execution": false}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "task_id": "offline_image_demo_Birds",
+  "start_frame": 0,
+  "window_size": 10,
+  "shape": [
+    10,
+    5
+  ],
+  "dtype": "float32_le",
+  "payload_bytes": 200,
+  "crc32": "0cf0d1c5",
+  "input_crc32": "b1e74153",
+  "source_crc32": "eeef8489",
+  "original_sha256": "3ddca5eb1f0e1f485b2a04edd55da450e204f2ac34606539a35558654171062c",
+  "columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ]
+}

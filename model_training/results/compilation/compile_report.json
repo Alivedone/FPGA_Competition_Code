@@ -1,0 +1,153 @@
+{
+  "interface_sha256": "4f1777c181a3c0e14d5b76b82541bc819179d6830b9147de41deca41b4c5074c",
+  "stages": [
+    {
+      "command": [
+        "source_record/icraft-parse.exe",
+        "--net_name",
+        "ResNet18_radar",
+        "--network",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/ResNet18_radar.onnx",
+        "--framework",
+        "Onnx",
+        "--target",
+        "zhuge",
+        "--inputs",
+        "1,10,512,1",
+        "--inputs_layout",
+        "NHWC",
+        "--inputs_dtype",
+        "FP32",
+        "--pre_method",
+        "nop",
+        "--pre_scale",
+        "1",
+        "--pre_mean",
+        "0",
+        "--channel_swap",
+        "0",
+        "--jr_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft",
+        "--log_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/logs/parse"
+      ],
+      "returncode": 0,
+      "seconds": 1.1756527999999662,
+      "log": "logs\\parse_console.log",
+      "stage": "parse",
+      "outputs": {
+        "icraft/ResNet18_radar_parsed.json": "78228957c4a226db74d223f671d82dcb019ebfd66281ea8a5bee83e8095a366a",
+        "icraft/ResNet18_radar_parsed.raw": "0d502948e85d81228148aaf90c0e04ab43b266b5376f89b0c9a4c655a2ea1746"
+      }
+    },
+    {
+      "command": [
+        "source_record/icraft-optimize.exe",
+        "--target",
+        "zhuge",
+        "--json",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_parsed.json",
+        "--raw",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_parsed.raw",
+        "--jr_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft",
+        "--log_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/logs/optimize"
+      ],
+      "returncode": 0,
+      "seconds": 2.6641735999999128,
+      "log": "logs\\optimize_console.log",
+      "stage": "optimize",
+      "outputs": {
+        "icraft/ResNet18_radar_optimized.json": "4d39216bb853f9e37f6d2f79bf96c6b96f63d4006a608c0a77c4d3a60b0cea07",
+        "icraft/ResNet18_radar_optimized.raw": "26982d30d65a0e5404127eda4302709e285435dbbd4cf7f558d1c8a04197a45f"
+      }
+    },
+    {
+      "command": [
+        "source_record/icraft-quantize.exe",
+        "--target",
+        "zhuge",
+        "--json",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_optimized.json",
+        "--raw",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_optimized.raw",
+        "--jr_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft",
+        "--forward_mode",
+        "ftmp",
+        "--forward_dir",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/activation_cache",
+        "--forward_list",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/activation_cache/files.txt",
+        "--qdtype",
+        "int8",
+        "--per",
+        "channel",
+        "--saturation",
+        "kld",
+        "--batch",
+        "6",
+        "--no_transinput",
+        "true",
+        "--log_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/logs/quantize"
+      ],
+      "returncode": 0,
+      "seconds": 12.418337299999962,
+      "log": "logs\\quantize_console.log",
+      "stage": "quantize",
+      "outputs": {
+        "icraft/ResNet18_radar_quantized.json": "8793db95a5221415459c43fe6259377a8574ee93d5eee14e56c9e9f89bc24e90",
+        "icraft/ResNet18_radar_quantized.raw": "bf2540267ce8163ba833339f80ef9624ed6235f80ec51f4bfdd352d166000ff7"
+      }
+    },
+    {
+      "command": [
+        "source_record/icraft-adapt.exe",
+        "--target",
+        "zhuge",
+        "--json",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_quantized.json",
+        "--raw",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_quantized.raw",
+        "--jr_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft",
+        "--log_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/logs/adapt"
+      ],
+      "returncode": 0,
+      "seconds": 1.0225370000000567,
+      "log": "logs\\adapt_console.log",
+      "stage": "adapt",
+      "outputs": {
+        "icraft/ResNet18_radar_adapted.json": "a237b529672b61e8a46168c2132e648d78b4a186035708f9b2aed4e6bb15a0c1",
+        "icraft/ResNet18_radar_adapted.raw": "f23a00f158ba2043edc306ef00eb659cc74328eaccdd1675b8a872f11b674ae0"
+      }
+    },
+    {
+      "command": [
+        "source_record/icraft-generate.exe",
+        "--json",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_adapted.json",
+        "--raw",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft/ResNet18_radar_adapted.raw",
+        "--jr_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/icraft",
+        "--log_path",
+        "LSS_HSR_L_ROAD/artifacts/deployment_comparison/models/resnet18/logs/generate"
+      ],
+      "returncode": 0,
+      "seconds": 2.4493479000000207,
+      "log": "logs\\generate_console.log",
+      "stage": "generate",
+      "outputs": {
+        "icraft/ResNet18_radar_ZG.json": "fc6cf7f035fc3308d1f9f21ee0c000b8fcb3ed7389f69bbd550803faed0a6aac",
+        "icraft/ResNet18_radar_ZG.raw": "2e5f90055894ebc30cb7ae56a4e4d0361e6bc81f89458b061ee41489fb396faa"
+      }
+    }
+  ],
+  "board_executed": false,
+  "status": "completed",
+  "stages_completed": 5
+}

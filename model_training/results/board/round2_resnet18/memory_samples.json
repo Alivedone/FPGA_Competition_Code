@@ -1,0 +1,4362 @@
+[
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 72888320,
+        "VmHWM": 72888320,
+        "VmSize": 619773952,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 73572352,
+        "Pss": 63561728,
+        "Private_Clean": 31948800,
+        "Private_Dirty": 26374144
+      },
+      "system_bytes": {
+        "MemAvailable": 735461376,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74366976,
+        "Pss": 64354304,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27000832
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74371072,
+        "Pss": 64358400,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27004928
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74379264,
+        "Pss": 64366592,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27013120
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74379264,
+        "Pss": 64366592,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27013120
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74379264,
+        "Pss": 64366592,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27013120
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74383360,
+        "Pss": 64370688,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27017216
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74383360,
+        "Pss": 64370688,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27017216
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74387456,
+        "Pss": 64374784,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27021312
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74387456,
+        "Pss": 64374784,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27021312
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74391552,
+        "Pss": 64378880,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27025408
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74391552,
+        "Pss": 64378880,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27025408
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74399744,
+        "Pss": 64387072,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27033600
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74403840,
+        "Pss": 64391168,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27037696
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74403840,
+        "Pss": 64391168,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27037696
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74407936,
+        "Pss": 64395264,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27041792
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74407936,
+        "Pss": 64395264,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27041792
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74416128,
+        "Pss": 64403456,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27049984
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74416128,
+        "Pss": 64403456,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27049984
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74420224,
+        "Pss": 64407552,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27054080
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74420224,
+        "Pss": 64407552,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27054080
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620298240,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74420224,
+        "Pss": 64407552,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27054080
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74428416,
+        "Pss": 64415744,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27062272
+      },
+      "system_bytes": {
+        "MemAvailable": 734179328,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74432512,
+        "Pss": 64419840,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27066368
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74436608,
+        "Pss": 64423936,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27070464
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74436608,
+        "Pss": 64423936,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27070464
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74440704,
+        "Pss": 64428032,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27074560
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74440704,
+        "Pss": 64428032,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27074560
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74444800,
+        "Pss": 64432128,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27078656
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74448896,
+        "Pss": 64436224,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27082752
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74448896,
+        "Pss": 64436224,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27082752
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74457088,
+        "Pss": 64444416,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27090944
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74457088,
+        "Pss": 64444416,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27090944
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74465280,
+        "Pss": 64452608,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27099136
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74465280,
+        "Pss": 64452608,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27099136
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74465280,
+        "Pss": 64452608,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27099136
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74469376,
+        "Pss": 64456704,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27103232
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74469376,
+        "Pss": 64456704,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27103232
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74477568,
+        "Pss": 64464896,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27111424
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74477568,
+        "Pss": 64464896,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27111424
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74481664,
+        "Pss": 64468992,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27115520
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74485760,
+        "Pss": 64473088,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27119616
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74489856,
+        "Pss": 64477184,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27123712
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74489856,
+        "Pss": 64477184,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27123712
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74493952,
+        "Pss": 64481280,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27127808
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74498048,
+        "Pss": 64485376,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27131904
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74498048,
+        "Pss": 64485376,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27131904
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74502144,
+        "Pss": 64489472,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27136000
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74502144,
+        "Pss": 64489472,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27136000
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74510336,
+        "Pss": 64497664,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27144192
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74510336,
+        "Pss": 64497664,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27144192
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74514432,
+        "Pss": 64501760,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27148288
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74518528,
+        "Pss": 64505856,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27152384
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74518528,
+        "Pss": 64505856,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27152384
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74526720,
+        "Pss": 64514048,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27160576
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74526720,
+        "Pss": 64514048,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27160576
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74530816,
+        "Pss": 64518144,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27164672
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74530816,
+        "Pss": 64518144,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27164672
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74530816,
+        "Pss": 64518144,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27164672
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74539008,
+        "Pss": 64526336,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27172864
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74543104,
+        "Pss": 64530432,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27176960
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74547200,
+        "Pss": 64534528,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27181056
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74547200,
+        "Pss": 64534528,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27181056
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74551296,
+        "Pss": 64538624,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27185152
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74551296,
+        "Pss": 64538624,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27185152
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74559488,
+        "Pss": 64546816,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27193344
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74559488,
+        "Pss": 64546816,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27193344
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74559488,
+        "Pss": 64546816,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27193344
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74563584,
+        "Pss": 64550912,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27197440
+      },
+      "system_bytes": {
+        "MemAvailable": 733921280,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74563584,
+        "Pss": 64550912,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27197440
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74575872,
+        "Pss": 64563200,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27209728
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74575872,
+        "Pss": 64563200,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27209728
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74579968,
+        "Pss": 64567296,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27213824
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74579968,
+        "Pss": 64567296,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27213824
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74579968,
+        "Pss": 64567296,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27213824
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74588160,
+        "Pss": 64575488,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27222016
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74588160,
+        "Pss": 64575488,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27222016
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74592256,
+        "Pss": 64579584,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27226112
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74592256,
+        "Pss": 64579584,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27226112
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74596352,
+        "Pss": 64583680,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27230208
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74604544,
+        "Pss": 64591872,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27238400
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74604544,
+        "Pss": 64591872,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27238400
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74608640,
+        "Pss": 64595968,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27242496
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74608640,
+        "Pss": 64595968,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27242496
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74612736,
+        "Pss": 64600064,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27246592
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 73936896,
+        "VmHWM": 73936896,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74612736,
+        "Pss": 64600064,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27246592
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74620928,
+        "Pss": 64608256,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27254784
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74620928,
+        "Pss": 64608256,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27254784
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74625024,
+        "Pss": 64612352,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27258880
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74625024,
+        "Pss": 64612352,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27258880
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74629120,
+        "Pss": 64616448,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27262976
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74637312,
+        "Pss": 64624640,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27271168
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74637312,
+        "Pss": 64624640,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27271168
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74641408,
+        "Pss": 64628736,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27275264
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74641408,
+        "Pss": 64628736,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27275264
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74645504,
+        "Pss": 64632832,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27279360
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74649600,
+        "Pss": 64636928,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27283456
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74649600,
+        "Pss": 64636928,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27283456
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74653696,
+        "Pss": 64641024,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27287552
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74657792,
+        "Pss": 64645120,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27291648
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74661888,
+        "Pss": 64649216,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27295744
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74665984,
+        "Pss": 64653312,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27299840
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74670080,
+        "Pss": 64657408,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27303936
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74670080,
+        "Pss": 64657408,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27303936
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74670080,
+        "Pss": 64657408,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27303936
+      },
+      "system_bytes": {
+        "MemAvailable": 733999104,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74674176,
+        "Pss": 64661504,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27308032
+      },
+      "system_bytes": {
+        "MemAvailable": 733741056,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74674176,
+        "Pss": 64661504,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27308032
+      },
+      "system_bytes": {
+        "MemAvailable": 733741056,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74682368,
+        "Pss": 64669696,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27316224
+      },
+      "system_bytes": {
+        "MemAvailable": 733741056,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  },
+  {
+    "process": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 74186752,
+        "VmHWM": 74186752,
+        "VmSize": 620560384,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 74682368,
+        "Pss": 64669696,
+        "Private_Clean": 32112640,
+        "Private_Dirty": 27316224
+      },
+      "system_bytes": {
+        "MemAvailable": 733741056,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "type": "START",
+  "task_id": "offline_real_cpu_Car",
+  "payload_bytes": 0,
+  "file_bytes": 61440,
+  "frame_count": 30,
+  "dtype": "float32_le",
+  "bins_per_frame": 512,
+  "window_size": 10,
+  "start_frame": 0,
+  "windows": 1,
+  "stride": 1,
+  "crc32": "fe6eb8e7",
+  "source_path": "validation/Car/0001_30.bin",
+  "offline_validation": true,
+  "source_format": "spectrum_track_517",
+  "original_file_bytes": 62040,
+  "original_sha256": "b650d443a6ccb8ff3a70ff27a34194692ceda843061205b7479183952bfe0c79"
+}

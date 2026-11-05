@@ -1,0 +1,28 @@
+{
+  "files": 1455,
+  "checks": {
+    "full": {
+      "matching_file_pairs": 0,
+      "cross_partition_pairs": 0,
+      "examples": []
+    },
+    "spectrum_row": {
+      "matching_file_pairs": 0,
+      "cross_partition_pairs": 0,
+      "examples": []
+    },
+    "track_fragment": {
+      "matching_file_pairs": 0,
+      "cross_partition_pairs": 0,
+      "examples": []
+    }
+  },
+  "conclusion": "No hash match cannot prove different physical targets, flights or collection sessions; original group IDs are absent.",
+  "provenance_fields_missing": [
+    "original_track_id",
+    "recording_timestamp",
+    "session_id",
+    "target_instance_id"
+  ],
+  "status": "no_overlap_detected_source_independence_unverified"
+}

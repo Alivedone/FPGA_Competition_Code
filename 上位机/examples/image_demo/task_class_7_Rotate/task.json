@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "type": "START",
+  "task_id": "offline_image_demo_Rotate",
+  "payload_bytes": 0,
+  "file_bytes": 83968,
+  "frame_count": 41,
+  "dtype": "float32_le",
+  "bins_per_frame": 512,
+  "window_size": 10,
+  "start_frame": 0,
+  "windows": 1,
+  "stride": 1,
+  "crc32": "3c2ad4a0",
+  "source_path": "validation/Rotate/0001_41.bin",
+  "offline_validation": true,
+  "source_format": "spectrum_track_517",
+  "original_file_bytes": 84788,
+  "original_sha256": "4b93259af1e14533d559a1cec4faddfd7daf24da3effb6e97a05bee10ef5a40c"
+}

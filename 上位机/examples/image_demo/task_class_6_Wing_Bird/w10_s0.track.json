@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "task_id": "offline_image_demo_Wing_Bird",
+  "start_frame": 0,
+  "window_size": 10,
+  "shape": [
+    10,
+    5
+  ],
+  "dtype": "float32_le",
+  "payload_bytes": 200,
+  "crc32": "667d2dba",
+  "input_crc32": "49e7d580",
+  "source_crc32": "2e34a28a",
+  "original_sha256": "5b8dd648be28cff3625984918bd9bbe9f69110b0a4eef363d8c7bdbfbd33f2e6",
+  "columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ]
+}

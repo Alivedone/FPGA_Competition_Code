@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "nine_names_custom_labels_unknown_and_invalid_metadata",
+    "nine_category_inputs_real_socket_upload_persistence_and_prediction_names",
+    "multiwindow_count_retained_and_TCP_START_unchanged",
+    "history_label_immutable_after_source_relabel_or_move",
+    "unlabelled_spectra_unknown_no_directory_guess",
+    "input_SHA_validation_preserved",
+    "actual_Tk_table_detail_reference_image_old_history_and_clear_guard"
+  ],
+  "tasks": 10,
+  "windows": 11,
+  "actual_Tk": true,
+  "real_socket": true,
+  "board_tested": false,
+  "wire_ground_truth_sent": false,
+  "evidence": "C:\\Users\\17277\\Documents\\ChatGPT\\信号识别分析\\gui_label_names\\test_output_s8v6s_26"
+}

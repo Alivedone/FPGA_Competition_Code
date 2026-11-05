@@ -1,0 +1,1 @@
+{"version": 1, "type": "RESULT", "task_id": "offline_image_demo_Car", "payload_bytes": 36, "window_index": 0, "start_frame": 0, "window_size": 10, "dtype": "float32_le", "shape": [1, 9], "crc32": "a549748d", "summary": {"kind": "classification", "class_id": 8, "class_name": "8", "score": 0.9488534082049096}, "physical_execution": false}

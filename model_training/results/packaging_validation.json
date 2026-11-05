@@ -1,0 +1,97 @@
+{
+  "python_syntax": "passed",
+  "original_training_and_selection_algorithm_AST": "identical",
+  "split_mats": {
+    "train": 964,
+    "development": 241,
+    "heldout": 250
+  },
+  "calibration": "54 distinct training MATs, hashes and shapes passed",
+  "graph_interface": "FP32 NHWC input / 9 FP32 outputs / final tensor 169",
+  "recomputed": {
+    "development_fp32": {
+      "window": {
+        "samples": 6836,
+        "correct": 5627,
+        "accuracy": 0.8231421884142773
+      },
+      "sequence": {
+        "samples": 241,
+        "correct": 224,
+        "accuracy": 0.9294605809128631
+      }
+    },
+    "development_host": {
+      "window": {
+        "samples": 6836,
+        "correct": 5587,
+        "accuracy": 0.8172908133411352
+      },
+      "sequence": {
+        "samples": 241,
+        "correct": 221,
+        "accuracy": 0.91701244813278
+      }
+    },
+    "development_board": {
+      "window": {
+        "samples": 6836,
+        "correct": 5571,
+        "accuracy": 0.8149502633118783
+      },
+      "sequence": {
+        "samples": 241,
+        "correct": 221,
+        "accuracy": 0.91701244813278
+      }
+    },
+    "heldout_fp32": {
+      "window": {
+        "samples": 7239,
+        "correct": 6152,
+        "accuracy": 0.8498411382787678
+      },
+      "sequence": {
+        "samples": 250,
+        "correct": 229,
+        "accuracy": 0.916
+      }
+    },
+    "heldout_host": {
+      "window": {
+        "samples": 7239,
+        "correct": 6109,
+        "accuracy": 0.8439010913109546
+      },
+      "sequence": {
+        "samples": 250,
+        "correct": 230,
+        "accuracy": 0.92
+      }
+    },
+    "heldout_board": {
+      "window": {
+        "samples": 7239,
+        "correct": 6093,
+        "accuracy": 0.8416908412764194
+      },
+      "sequence": {
+        "samples": 250,
+        "correct": 230,
+        "accuracy": 0.92
+      }
+    }
+  },
+  "reference_27": {
+    "max_abs_pt_onnx_error": 4.76837158203125e-06,
+    "max_abs_error_vs_frozen": 4.76837158203125e-06,
+    "class_agreement": 1.0
+  },
+  "training_smoke": "forward/backward/AdamW step passed on in-memory model; no frozen file changed",
+  "board_executed": false,
+  "timing_csv_recomputed": {
+    "samples": 3240,
+    "mean_request_ms": 3.084092490740741
+  },
+  "full_onnx_heldout_rerun_matches_frozen": true
+}

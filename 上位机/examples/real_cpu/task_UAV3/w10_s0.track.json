@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "task_id": "offline_real_cpu_UAV3",
+  "start_frame": 0,
+  "window_size": 10,
+  "shape": [
+    10,
+    5
+  ],
+  "dtype": "float32_le",
+  "payload_bytes": 200,
+  "crc32": "6a80ffac",
+  "input_crc32": "44a39324",
+  "source_crc32": "aa5d7485",
+  "original_sha256": "4b66d909850e59f610f6730f7690f5d926e5ca4e8d74ac4d0badfe945a624429",
+  "columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ]
+}

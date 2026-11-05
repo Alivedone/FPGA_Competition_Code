@@ -1,0 +1,19 @@
+{
+  "epochs": 30,
+  "batch_size": 64,
+  "seed": 42,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "schedule": "cosine",
+  "minimum_lr": 1e-05,
+  "sampling": "class_then_mat_then_start",
+  "loss": "unweighted_cross_entropy",
+  "selection": "development_sequence_macro_f1",
+  "amp": false,
+  "tf32": false,
+  "window": 10,
+  "bins": 512,
+  "evaluation_stride": 1,
+  "track_used": false
+}

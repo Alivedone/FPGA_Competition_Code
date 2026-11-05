@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "type": "START",
+  "task_id": "offline_image_demo_UAV1",
+  "payload_bytes": 0,
+  "file_bytes": 124928,
+  "frame_count": 61,
+  "dtype": "float32_le",
+  "bins_per_frame": 512,
+  "window_size": 10,
+  "start_frame": 0,
+  "windows": 1,
+  "stride": 1,
+  "crc32": "4aa3137e",
+  "source_path": "validation/UAV1/0001_61.bin",
+  "offline_validation": true,
+  "source_format": "spectrum_track_517",
+  "original_file_bytes": 126148,
+  "original_sha256": "2f40e04276b74fcebfed590e801e47dcadaf454ba51a205cc7c89f7ec2cc6c76"
+}

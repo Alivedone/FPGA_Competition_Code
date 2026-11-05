@@ -1,0 +1,1 @@
+{"version": 1, "type": "RESULT", "task_id": "offline_real_cpu_UAV3", "payload_bytes": 36, "window_index": 0, "start_frame": 0, "window_size": 10, "dtype": "float32_le", "shape": [1, 9], "crc32": "15c449d9", "summary": {"class_id": 0, "class_name": "0", "kind": "classification", "score": 0.9753018782900685}, "physical_execution": false}

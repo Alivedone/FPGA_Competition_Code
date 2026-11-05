@@ -1,0 +1,41 @@
+{
+  "schema": "LSS_HSR_FRAME",
+  "version": 1,
+  "dtype": "float32",
+  "byte_order": "little-endian",
+  "frame_count": 41,
+  "doppler_bins": 512,
+  "track_features": 5,
+  "values_per_frame": 517,
+  "bytes_per_frame": 2068,
+  "layout": "frame_major_doppler_then_track",
+  "data_file": "UAV3_02_41.bin",
+  "source_mat": "validation/UAV3/0020_41.mat",
+  "category": "UAV3",
+  "split": "validation",
+  "source_sha256": "c16596f29dbeff21b9c8e9d4956d236f835768c580cce49bc0b4d778f16bed96",
+  "sha256": "70f8da20e79763725c4d39704b7d8a33bc80a25c3b7e873e5fc5fc3776ec1949",
+  "crc32": "5c40dd6c",
+  "track_columns": [
+    "radial_velocity",
+    "range",
+    "azimuth",
+    "height",
+    "normalized_snr"
+  ],
+  "track_units": [
+    "m/s",
+    "km",
+    "degree",
+    "m",
+    "dB"
+  ],
+  "preprocessing": {
+    "doppler": "fixed_training_global_zscore",
+    "track": "none",
+    "mean": 137.53303464225368,
+    "std": 10.262633165907761,
+    "source_rounding": "raw_FP32_first"
+  },
+  "old_512_bin_client_compatible": false
+}

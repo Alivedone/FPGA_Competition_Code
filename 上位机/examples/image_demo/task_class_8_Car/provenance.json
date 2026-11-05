@@ -1,0 +1,19 @@
+{
+  "source_group": "Car",
+  "source_class_order": [
+    "UAV1",
+    "UAV2",
+    "UAV3",
+    "UAV4",
+    "Bird",
+    "Birds",
+    "Wing Bird",
+    "Rotate",
+    "Car"
+  ],
+  "source_cpu_result": "prj_LSS_HSRV3/output/gui_waterfall_validation_20261024_153900/cpu_results/task_pc_2",
+  "original_cpu_output_sha256": "c6fb09c6db36fb2b6c63bf0ff485c6bff84d4e5896144ed9b07e8b7f1e85b241",
+  "reused_real_CPU_output": false,
+  "network_task_executed": false,
+  "board_tested": false
+}

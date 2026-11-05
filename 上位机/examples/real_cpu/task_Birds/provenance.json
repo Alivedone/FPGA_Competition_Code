@@ -1,0 +1,19 @@
+{
+  "source_group": "Birds",
+  "source_class_order": [
+    "UAV1",
+    "UAV2",
+    "UAV3",
+    "UAV4",
+    "Bird",
+    "Birds",
+    "Wing Bird",
+    "Rotate",
+    "Car"
+  ],
+  "source_cpu_result": "prj_LSS_HSRV3/output/gui_waterfall_validation_20261024_153900/cpu_results/task_pc_1",
+  "original_cpu_output_sha256": "126cdccddb3899b32ab9538bb7c29635bec26201f8c9e80c4c6fbb334e1931ba",
+  "reused_real_CPU_output": true,
+  "network_task_executed": false,
+  "board_tested": false
+}

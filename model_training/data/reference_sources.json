@@ -1,0 +1,272 @@
+[
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "000_class0",
+    "source_mat": "train/UAV1/0001_42.mat",
+    "label": 0,
+    "row": 0,
+    "start_frame_zero_based": 16,
+    "input_sha256": "35e13896731e7ae11fd58c7e2d443d4e4e1ddc2ab2a11a2978e369da4a7e4d93"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "001_class0",
+    "source_mat": "train/UAV1/0003_70.mat",
+    "label": 0,
+    "row": 1,
+    "start_frame_zero_based": 30,
+    "input_sha256": "1eb86543284e11018549dcd1ddf78c0e1983162ffba459a49a9a2cad5b989a54"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "002_class0",
+    "source_mat": "train/UAV1/0004_40.mat",
+    "label": 0,
+    "row": 2,
+    "start_frame_zero_based": 15,
+    "input_sha256": "bdc2015579b9e1387b7a7dd0ee2a5703506775ff522fc9c8201ce9eb812b5400"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "003_class1",
+    "source_mat": "train/UAV2/0002_51.mat",
+    "label": 1,
+    "row": 23,
+    "start_frame_zero_based": 21,
+    "input_sha256": "a21d412d0d4f67fea01ad00dff49601563890b54177c58e2bc9145c37806cbdb"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "004_class1",
+    "source_mat": "train/UAV2/0004_44.mat",
+    "label": 1,
+    "row": 24,
+    "start_frame_zero_based": 17,
+    "input_sha256": "b7c57c5264be20636081298f64b9a71f496c46846fbfe68f85a525df73fdfebe"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "005_class1",
+    "source_mat": "train/UAV2/0007_45.mat",
+    "label": 1,
+    "row": 25,
+    "start_frame_zero_based": 18,
+    "input_sha256": "4325508c1ac787c78be114b8f6f1e99edd05156e20babeeb29d9d0cd367672ee"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "006_class2",
+    "source_mat": "train/UAV3/0001_63.mat",
+    "label": 2,
+    "row": 47,
+    "start_frame_zero_based": 27,
+    "input_sha256": "feeaabc4dfa202484674759208201394fb1cdfb60c61d4e9208e6627b6c1126d"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "007_class2",
+    "source_mat": "train/UAV3/0014_38.mat",
+    "label": 2,
+    "row": 48,
+    "start_frame_zero_based": 14,
+    "input_sha256": "84d037c5f8302beac211e9d66b120b44a01fc331c82f71a084e3509700821cb8"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "008_class2",
+    "source_mat": "train/UAV3/0027_43.mat",
+    "label": 2,
+    "row": 49,
+    "start_frame_zero_based": 17,
+    "input_sha256": "3253f95fb45b522904b1f991d63531de1d66e592f7d693a2fa5b49a5cca3ffa4"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "009_class3",
+    "source_mat": "train/UAV4/0008_29.mat",
+    "label": 3,
+    "row": 70,
+    "start_frame_zero_based": 10,
+    "input_sha256": "9ed1e153c81ef3a7ea56268959edc3b040be9215813c4beeda1a8a938d066617"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "010_class3",
+    "source_mat": "train/UAV4/0010_35.mat",
+    "label": 3,
+    "row": 71,
+    "start_frame_zero_based": 13,
+    "input_sha256": "773791b417e661fd4671baa2d981846ba9757cbe704e6f2a71a769f1d0148b3c"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "011_class3",
+    "source_mat": "train/UAV4/0013_36.mat",
+    "label": 3,
+    "row": 72,
+    "start_frame_zero_based": 13,
+    "input_sha256": "bfa6f7d399f04200844e1728bd32ca305fdba0bc22dcfa80158652df0075de72"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "012_class4",
+    "source_mat": "train/Bird/0006_36.mat",
+    "label": 4,
+    "row": 94,
+    "start_frame_zero_based": 13,
+    "input_sha256": "b8a5be3a120b898f4c52999f414cbe3d4fae487457fc248197024d3849ee0a8d"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "013_class4",
+    "source_mat": "train/Bird/0007_35.mat",
+    "label": 4,
+    "row": 95,
+    "start_frame_zero_based": 13,
+    "input_sha256": "61dd692de3ac21cb10cf146d160151a11cd5ba2e7816197116893b3ffc755565"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "014_class4",
+    "source_mat": "train/Bird/0009_30.mat",
+    "label": 4,
+    "row": 96,
+    "start_frame_zero_based": 10,
+    "input_sha256": "b874c0172061d9d067404e66b5ec2b21b99ae2a5762a51a497b6b803c6738265"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "015_class5",
+    "source_mat": "train/Birds/0010_43.mat",
+    "label": 5,
+    "row": 126,
+    "start_frame_zero_based": 17,
+    "input_sha256": "587e70edc5401a09592af71ef9a03c13565bd8ace9b800655b3349d5000d4ab2"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "016_class5",
+    "source_mat": "train/Birds/0012_46.mat",
+    "label": 5,
+    "row": 127,
+    "start_frame_zero_based": 18,
+    "input_sha256": "994f69ada54ce6456672a7f66ecf5a90af060c0b54900583397e578749c9a097"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "017_class5",
+    "source_mat": "train/Birds/0018_40.mat",
+    "label": 5,
+    "row": 128,
+    "start_frame_zero_based": 15,
+    "input_sha256": "396071aab9af152e8438ea014d0b608cda8c8f700bf3edf40d9c67ab7473df7f"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "018_class6",
+    "source_mat": "train/Wing Bird/0004_67.mat",
+    "label": 6,
+    "row": 149,
+    "start_frame_zero_based": 29,
+    "input_sha256": "a318e8c65e4b56392c30f35b85cd68a2706c3725c32161c7e16f3e8feb261208"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "019_class6",
+    "source_mat": "train/Wing Bird/0009_41.mat",
+    "label": 6,
+    "row": 150,
+    "start_frame_zero_based": 16,
+    "input_sha256": "3f389446e7829443116d229c7492ff117de5baf406e0f29d8646a9a1aecc232a"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "020_class6",
+    "source_mat": "train/Wing Bird/0015_48.mat",
+    "label": 6,
+    "row": 151,
+    "start_frame_zero_based": 19,
+    "input_sha256": "0cb4cbb456d42a5300a7640df4fb05f9ca0a13d3bfd1fd76b400b5d715809665"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "021_class7",
+    "source_mat": "train/Rotate/0008_42.mat",
+    "label": 7,
+    "row": 173,
+    "start_frame_zero_based": 16,
+    "input_sha256": "5e941545d8201daa3bed04cc999fe8d5ccd401a2591ae22c53c42a2b825e7ad6"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "022_class7",
+    "source_mat": "train/Rotate/0017_38.mat",
+    "label": 7,
+    "row": 174,
+    "start_frame_zero_based": 14,
+    "input_sha256": "b78f93dd8073f76b9671950eabefa160878d276b6ac060baa17f01b7869de7e7"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "023_class7",
+    "source_mat": "train/Rotate/0036_44.mat",
+    "label": 7,
+    "row": 175,
+    "start_frame_zero_based": 17,
+    "input_sha256": "c783c0229753db63980658989f050fefc5da7cd1a149b7683e098f62c5fef7c7"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "024_class8",
+    "source_mat": "train/Car/0022_14.mat",
+    "label": 8,
+    "row": 197,
+    "start_frame_zero_based": 2,
+    "input_sha256": "30b88c403e7cd13501cbc16c83e9fd7dba87950d9e002a005f91810c9a32849e"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "025_class8",
+    "source_mat": "train/Car/0025_10.mat",
+    "label": 8,
+    "row": 198,
+    "start_frame_zero_based": 0,
+    "input_sha256": "75b0667619a7b06f7a1039069d064a1d5a7d862f0ccdceec5697c46a82e78e22"
+  },
+  {
+    "group": "reference",
+    "partition": "development",
+    "sample_id": "026_class8",
+    "source_mat": "train/Car/0026_15.mat",
+    "label": 8,
+    "row": 199,
+    "start_frame_zero_based": 3,
+    "input_sha256": "8fcab5d051a94da0577c3729387b079c7226ce1654ca52bd4ae161dcebb5017f"
+  }
+]

@@ -1,0 +1,629 @@
+source_ipfile xgui/processing_system7_v5_5.tcl
+
+set InstName [get_property PARAM_VALUE.Component_Name]
+set OutputDirectory "./sim/"
+set ipfile [add_ipfile $OutputDirectory/$InstName.sv]
+set indentation "     "
+set last_bus_interface_name " "
+
+ set plClockEnPorts [dict create \
+      FCLK_CLK0 PCW_EN_CLK0_PORT \
+      FCLK_CLK1 PCW_EN_CLK1_PORT \
+      FCLK_CLK2 PCW_EN_CLK2_PORT \
+      FCLK_CLK3 PCW_EN_CLK3_PORT \
+    ];
+
+ set plClockFreqPorts [dict create \
+      FCLK_CLK0 PCW_FPGA0_PERIPHERAL_FREQMHZ \
+      FCLK_CLK1 PCW_FPGA1_PERIPHERAL_FREQMHZ \
+      FCLK_CLK2 PCW_FPGA2_PERIPHERAL_FREQMHZ \
+      FCLK_CLK3 PCW_FPGA3_PERIPHERAL_FREQMHZ \
+    ];
+
+set     plRstPorts FCLK_RESET0_N
+lappend plRstPorts FCLK_RESET1_N
+lappend plRstPorts FCLK_RESET2_N
+lappend plRstPorts FCLK_RESET3_N
+
+set plIntrPortName IRQ_F2P
+
+set     logicalAxiPorts "AWID"
+lappend logicalAxiPorts "AWADDR"
+lappend logicalAxiPorts "AWLEN"
+lappend logicalAxiPorts "AWSIZE"
+lappend logicalAxiPorts "AWBURST"
+lappend logicalAxiPorts "AWLOCK"
+lappend logicalAxiPorts "AWCACHE"
+lappend logicalAxiPorts "AWPROT"
+lappend logicalAxiPorts "AWQOS"
+lappend logicalAxiPorts "AWUSER"
+lappend logicalAxiPorts "AWVALID"
+lappend logicalAxiPorts "AWREADY"
+lappend logicalAxiPorts "WID"
+lappend logicalAxiPorts "WDATA"
+lappend logicalAxiPorts "WSTRB"
+lappend logicalAxiPorts "WLAST"
+lappend logicalAxiPorts "WVALID"
+lappend logicalAxiPorts "WREADY"
+lappend logicalAxiPorts "BID"
+lappend logicalAxiPorts "BRESP"
+lappend logicalAxiPorts "BVALID"
+lappend logicalAxiPorts "BREADY"
+lappend logicalAxiPorts "ARID"
+lappend logicalAxiPorts "ARADDR"
+lappend logicalAxiPorts "ARLEN"
+lappend logicalAxiPorts "ARSIZE"
+lappend logicalAxiPorts "ARBURST"
+lappend logicalAxiPorts "ARLOCK"
+lappend logicalAxiPorts "ARCACHE"
+lappend logicalAxiPorts "ARPROT"
+lappend logicalAxiPorts "ARQOS"
+lappend logicalAxiPorts "ARUSER"
+lappend logicalAxiPorts "ARVALID"
+lappend logicalAxiPorts "ARREADY"
+lappend logicalAxiPorts "RID"
+lappend logicalAxiPorts "RDATA"
+lappend logicalAxiPorts "RRESP"
+lappend logicalAxiPorts "RLAST"
+lappend logicalAxiPorts "RVALID"
+lappend logicalAxiPorts "RREADY"
+
+#GETTING THE LIST OF ALL THE PORTS
+
+proc getBitDeclarationPorts {} {
+	set port_list {}
+	set portname [ipx::get_ports -of_objects [current_ipbom]]
+	foreach port_name_itr $portname {
+		set leftSize [get_property SIZE_LEFT $port_name_itr]
+		set rightSize [get_property SIZE_RIGHT $port_name_itr]
+		set isVector  [get_property IS_VECTOR $port_name_itr]
+		if { $isVector == 1 } {
+			lappend port_list "bit  \[$leftSize : $rightSize\] [lindex $port_name_itr 2];"
+		} else {
+			lappend port_list "bit  [lindex $port_name_itr 2];"
+		}
+	}
+	return $port_list
+}
+
+#GETTING THE ENABLED BUS-INTERFACE
+
+proc getSVCosimInitAttributes { bus_interface_names_itr } {
+    variable logicalAxiPorts
+	set vectorPortsInBusInterface {}
+	set lastBusInterface ""
+    foreach logicalPort $logicalAxiPorts {
+        set portMap [ipx::get_port_maps -of_objects $bus_interface_names_itr -filter "LOGICAL_NAME==$logicalPort"]
+        if { [llength $portMap ] < 1 } {
+            continue;
+        }
+
+		#GET THE PHYSICAL NAME OF THE PORT MAP
+		set physicalName [get_property PHYSICAL_NAME $portMap]
+		#ITERATING OVER ALL THE PORTS
+		set portNames [ipx::get_ports -of_objects [current_ipbom]]
+		foreach portNameIterator $portNames {
+			set portName_init [lindex $portNameIterator 2]
+			if {$physicalName eq $portName_init} {
+				lappend vectorPortsInBusInterface "input int $physicalName\_size" 
+			}
+		}
+    }
+	return $vectorPortsInBusInterface
+}
+
+#GENERATING PORTS FOR DPI FUNCTION OF TYPE INPUT
+		
+proc getInputDeclarationPorts {} {
+	set port_list {}
+	set portname [ipx::get_ports -of_objects [current_ipbom]]
+	foreach x $portname {
+		set port_direction [get_property DIRECTION $x]
+        set port_enablement [get_property ENABLEMENT_VALUE $x]
+		set leftSize [get_property SIZE_LEFT $x]
+		set rightSize [get_property SIZE_RIGHT $x]
+		set isVector  [get_property IS_VECTOR $x]
+      if { $port_direction == "in" } {
+         if { $port_enablement == 1 } {
+            if { $isVector == 1 } {
+               lappend port_list "bit \[$leftSize:$rightSize\] [lindex $x 2]"
+            } else {
+               lappend port_list "bit [lindex $x 2]"
+            }
+         }
+      }
+	}
+	return $port_list
+}
+	
+#GENERATING PORTS FOR DPI FUNCTION OF TYPE OUTPUT
+	
+proc getOutputDeclarationPorts {} {
+	set port_list {}
+	set portname [ipx::get_ports -of_objects [current_ipbom]]
+	foreach x $portname {
+	  set port_direction [get_property DIRECTION $x]
+      set port_enablement [get_property ENABLEMENT_VALUE $x]
+	  set leftSize [get_property SIZE_LEFT $x]
+	  set rightSize [get_property SIZE_RIGHT $x]
+	  set isVector  [get_property IS_VECTOR $x]
+      if { $port_direction == "out" } {
+         if { $port_enablement == 1 } {
+            if { $isVector == 1 } {
+               lappend port_list "\[$leftSize : $rightSize\] [lindex $x 2]"
+            } else {
+               lappend port_list "[lindex $x 2]"
+            }
+         }
+      }
+	}
+	return $port_list
+}
+
+#GENERATING ALL THE ENABLED PORTS
+ 
+proc getPorts {} {
+	set port_list {}
+	set portname [ipx::get_ports -of_objects [current_ipbom]]
+	foreach x $portname {
+      set port_enablement [get_property ENABLEMENT_VALUE $x]
+      if { $port_enablement == 1 } {
+         lappend port_list "[lindex $x 2]"
+      }
+	}
+	return $port_list
+}
+	
+#GETTING HDL PARAMETERS AND ITS VALUE
+
+proc getParameters {} {
+	set parameter_names {}
+	set parametername [ipx::get_hdl_parameters -of_objects [current_ipbom]]
+	
+	foreach parametername_itr $parametername {
+		set parameter_name [lindex $parametername_itr 2]
+		set parameter_value [get_property VALUE $parametername_itr]
+		set parameter_datatype [get_property DATA_TYPE $parametername_itr]
+		if {$parameter_datatype eq "STRING" | $parameter_value eq "true" | $parameter_value eq "false" } {
+			lappend parameter_names "$parameter_name = \"$parameter_value\";"
+		} else {
+			lappend parameter_names "$parameter_name = $parameter_value;"
+		}
+	}
+	
+    #set userParameters [ipx::get_user_parameters -of_objects [current_ipbom]]
+    #foreach userParameter_itr $userParameters {
+    #	set userparameter_name [lindex $userParameter_itr 2]
+    #	set userparameter_value [get_property VALUE $userParameter_itr]
+    #	set userparameter_type [get_property VALUE_FORMAT $userParameter_itr]
+    #	if { [expr {$userparameter_type eq "long"}] || [expr {$userparameter_type eq "float"}] || [expr {$userparameter_type eq "int"}]} {
+    #		if { $userparameter_value ne "<Select>" } {
+    #			if { $userparameter_value != "" } {
+    #				lappend parameter_names "$userparameter_name = $userparameter_value;"
+    #			}
+    #		}
+    #	}
+    #}
+   return $parameter_names
+}
+
+#GENERATING ALL THE PORTS WITH THEIR TYPE (INPUT OR OUTPUT)
+
+proc getPortsAndType {} {
+	set port_list {}
+	set portname [ipx::get_ports -of_objects [current_ipbom]]
+	foreach x $portname {
+		set port_direction [get_property DIRECTION $x]
+        set port_enablement [get_property ENABLEMENT_VALUE $x]
+		set leftSize [get_property SIZE_LEFT $x]
+		set rightSize [get_property SIZE_RIGHT $x]
+		set isVector  [get_property IS_VECTOR $x]
+        if { $port_enablement != 1 } {
+            continue
+        }
+      set port_dir "inout"
+      if { $port_direction == "out" } {
+          set port_dir  "output"
+      } elseif { $port_direction == "in" } {
+          set port_dir "input" 
+      }
+      if { $isVector == 1 } {
+          lappend port_list "$port_dir  \[$leftSize : $rightSize\] [lindex $x 2]"
+      } else {
+          lappend port_list "$port_dir  [lindex $x 2]"
+      }
+	}
+	return $port_list
+}
+   
+#GENERATING SET_INT_PARAM OR SET_STRING_PARAM DEPENDING UPON THE TYPE OF PARAMETER
+
+proc getParameterFunctions {} {
+	set parameter_names {}
+	set parametername [ipx::get_hdl_parameters -of_objects [current_ipbom]]
+	foreach parametername_itr $parametername {
+		set parameter_name [lindex $parametername_itr 2]
+		set parameter_value [get_property VALUE $parametername_itr]
+		set parameter_datatype [get_property DATA_TYPE $parametername_itr]
+		if { $parameter_datatype ne "bool" } {
+		  if {$parameter_datatype eq "STRING"} {
+			  lappend parameter_names "ps7_set_str_param \( \"$parameter_name\",$parameter_name\ );"
+		  } else {
+			  lappend parameter_names "ps7_set_int_param \( \"$parameter_name\",$parameter_name\ );"
+		  }
+	  }
+	}
+	
+    #set userParameters [ipx::get_user_parameters -of_objects [current_ipbom]]
+    #foreach userParameter_itr $userParameters {
+    #	set userparameter_name [lindex $userParameter_itr 2]
+    #	set userparameter_value [get_property VALUE $userParameter_itr]
+    #	set userparameter_type [get_property VALUE_FORMAT $userParameter_itr]
+    #	if { [expr {$userparameter_type eq "long"}] || [expr {$userparameter_type eq "float"}] || [expr {$userparameter_type eq "int"}]} {
+    #		if { $userparameter_value ne "<Select>" } {
+    #			if { $userparameter_value != "" } {
+    #				lappend parameter_names "ps7_set_int_param\(\"$userparameter_name\",$userparameter_name\);"
+    #			}
+    #		}
+    #	}
+    #}
+   return $parameter_names
+}
+   
+#GENERATING INIT FUNCTIONS
+ 
+proc getSVCosimInitFunctions { bus_interface_names_itr } {
+    variable logicalAxiPorts
+	set vectorPortsInBusInterface {}
+	set lastBusInterface ""
+	#GETTING ALL THE PORT MAPPING
+    foreach logicalPort $logicalAxiPorts {
+        set y [ipx::get_port_maps -of_objects $bus_interface_names_itr -filter "LOGICAL_NAME==$logicalPort"]
+        if { [llength $y] < 1 } {
+            continue;
+        }
+		#GET THE PHYSICAL NAME OF THE PORT MAP
+		set physicalName [get_property PHYSICAL_NAME $y]
+		set portNames [ipx::get_ports -of_objects [current_ipbom]]
+		#ITERATING OVER ALL THE PORTS
+		foreach portNameIterator $portNames {
+			set portName_init [lindex $portNameIterator 2]
+			if {$physicalName eq $portName_init} {
+				lappend vectorPortsInBusInterface "\$bits\($physicalName\)" 
+			}
+		}
+	}
+	return $vectorPortsInBusInterface
+}
+
+proc getSVCosimClock { clock_names_itr } {
+	set clockPortsInBusInterface {}
+	set lastBusInterface ""
+	#GETTING ALL THE PORT MAPPING
+	set getPortMaps [ipx::get_port_maps -of_objects $clock_names_itr]
+	foreach y $getPortMaps {
+		#GET THE PHYSICAL NAME OF THE PORT MAP
+		set physicalName [get_property PHYSICAL_NAME $y]
+		set physicalPort [ipx::get_ports $physicalName -of_objects [current_ipbom]]
+        set portEnable [get_property ENABLEMENT_VALUE $physicalPort]
+        set portDirection [get_property DIRECTION $physicalPort]
+        if { $portEnable == 1 } {
+          lappend clockPortsInBusInterface "$physicalName" 
+        }
+	}
+	return $clockPortsInBusInterface
+}
+
+#GENERATING ALL THE PORTS FOR PROCESSING SYSTEM8
+
+puts_ipfile $ipfile "`timescale 1ns/1ps\n"
+puts_ipfile $ipfile "\/\/PORTS\n"
+foreach port_name [getBitDeclarationPorts] {
+	puts_ipfile $ipfile "$indentation $port_name"
+}
+#START OF FILE
+puts_ipfile $ipfile "\n\/\/MODULE DECLARATION"
+puts_ipfile $ipfile " module $InstName \("
+set portCount 0
+foreach port_name [getPorts] {
+	incr portCount 1
+	if { $portCount != [llength [getPorts]] } {
+		puts_ipfile $ipfile "  $port_name,"
+	} else {
+		puts_ipfile $ipfile "  $port_name"
+	}
+}
+puts_ipfile $ipfile " \);"
+
+puts_ipfile $ipfile "\n\/\/PARAMETERS\n"
+foreach parameter_name [getParameters] {
+   puts_ipfile $ipfile "$indentation parameter $parameter_name"
+}
+
+puts_ipfile $ipfile "\n\/\/INPUT AND OUTPUT PORTS\n"
+foreach port_name [getPortsAndType] {
+   puts_ipfile $ipfile "$indentation $port_name;"
+}
+
+puts_ipfile $ipfile "\n\/\/REG DECLARATIONS\n"
+foreach port_name [getOutputDeclarationPorts] {
+   puts_ipfile $ipfile "$indentation reg $port_name;"
+}
+
+puts_ipfile $ipfile "$indentation string ip_name;"
+puts_ipfile $ipfile "$indentation reg disable_port;"
+
+#DPI IMPORT FUNCTION DECLARATION
+puts_ipfile $ipfile "\n\/\/DPI DECLARATIONS"
+puts_ipfile $ipfile "import \"DPI-C\" function void ps7_set_ip_context\(input string ip_name\);"
+puts_ipfile $ipfile "import \"DPI-C\" function void ps7_set_str_param\(input string name,input string val\);"
+puts_ipfile $ipfile "import \"DPI-C\" function void ps7_set_int_param\(input string name,input longint val\);"
+puts_ipfile $ipfile "import \"DPI-C\" function void ps7_init_c_model\(\);"
+
+
+#Adding PL2PS interrupt ports DPI 
+set plIntrPort [ipx::get_ports $plIntrPortName -of_objects [current_ipbom]]
+set plIntrPortEnable [get_property ENABLEMENT_VALUE $plIntrPort]
+if { $plIntrPortEnable == 1 } {
+    puts_ipfile $ipfile "import \"DPI-C\" function void ps7_set_input_IRQ_F2P\(input int pinIdex, input int pinValue\);"
+}
+		
+set axibus_interface_names [ipx::get_bus_interfaces -of_objects [current_ipbom] -filter "BUS_TYPE_VLNV==xilinx.com:interface:aximm:1.0" ]
+foreach bus_interface_names_itr $axibus_interface_names {
+    set nameBusInterface [string tolower [get_property NAME $bus_interface_names_itr] ]
+    set checkBusEnablement [get_property ENABLEMENT_VALUE $bus_interface_names_itr]
+    if { $checkBusEnablement == 1 } { 
+     set func [getSVCosimInitAttributes $bus_interface_names_itr ] 
+     set func_port [join $func ,]
+     puts_ipfile $ipfile "import \"DPI-C\" function void ps7_init_$nameBusInterface\($func_port\);"
+    }
+}
+
+set bus_interface_names [ipx::get_bus_interfaces -of_objects [current_ipbom] ]
+set clkbus_interface_names [ipx::get_bus_interfaces -of_objects [current_ipbom] -filter "BUS_TYPE_VLNV==xilinx.com:signal:clock:1.0" ]
+foreach clock_names_itr $clkbus_interface_names {
+    variable logicalAxiPorts
+	set input_port_list {}
+	set output_port_list {}
+	set checkBusEnablement [get_property ENABLEMENT_VALUE $clock_names_itr]
+	if { $checkBusEnablement != 1 } { 
+        continue;
+    }
+    set clk_ports [getSVCosimClock $clock_names_itr] 
+    
+    foreach clk_port $clk_ports {
+      puts_ipfile $ipfile "import \"DPI-C\" function void ps7_simulate_single_cycle_$clk_port\(\);"
+      set bus_interface_name [string tolower [get_property BUSIFPARAM_VALUE.[lindex $clock_names_itr 2].ASSOCIATED_BUSIF]]
+	  foreach bus_name $bus_interface_names {
+	  	set busInterface [string tolower [get_property NAME $bus_name] ]
+	  	if { $bus_interface_name eq $busInterface } {
+	  		if { $busInterface ne $last_bus_interface_name} {
+                foreach logicalPort $logicalAxiPorts {
+                    set y [ipx::get_port_maps -of_objects $bus_name -filter "LOGICAL_NAME==$logicalPort"]
+                    if { [llength $y] < 1 } {
+                        continue;
+                    }
+	  				#GET THE PHYSICAL NAME OF THE PORT MAP
+	  				set physicalName [get_property PHYSICAL_NAME $y]
+	  				set portNames [ipx::get_ports -of_objects [current_ipbom]]
+	  				#ITERATING OVER ALL THE PORTS
+	  				foreach portNameIterator $portNames {
+	  					set portName_init [lindex $portNameIterator 2]
+	  					if {$physicalName eq $portName_init} {
+	  						set leftSize [get_property SIZE_LEFT $portNameIterator]
+	  						set rightSize [get_property SIZE_RIGHT $portNameIterator]
+	  						set isVector  [get_property IS_VECTOR $portNameIterator]
+	  						set isInput  [get_property DIRECTION $portNameIterator]
+	  						
+	  						if { $isInput == "in" } {
+	  							if { $isVector == 1 } {
+	  								lappend input_port_list "\[$leftSize : $rightSize\] [lindex $portNameIterator 2]"
+	  							} else {
+	  								lappend input_port_list "[lindex $portNameIterator 2]"
+	  							}
+	  						} else {
+	  							if { $isVector == 1 } {
+	  								lappend output_port_list "\[$leftSize : $rightSize\] [lindex $portNameIterator 2]"
+	  							} else {
+	  								lappend output_port_list "[lindex $portNameIterator 2]"
+	  							}
+	  						}
+	  					}
+	  				}
+	  			}
+	  			set last_bus_interface_name $busInterface
+	  		}
+	  	}
+	  }
+	  
+      set clk_intf_name [string tolower [lindex $clock_names_itr 2] ]
+      set inputPortCount 0
+	  if { $input_port_list != ""} {
+	  	puts_ipfile $ipfile "import \"DPI-C\" function void ps7_set_inputs_${bus_interface_name}_$clk_port\("
+	  	foreach input_ports $input_port_list {
+	  		incr inputPortCount 1
+	  		if { $inputPortCount != [llength $input_port_list] } {
+	  			puts_ipfile $ipfile "input bit $input_ports,"
+	  		} else {
+	  			puts_ipfile $ipfile "input bit $input_ports"
+	  		}
+	  	}
+	  	puts_ipfile $ipfile "\);"
+	  }
+
+	  set outputPortCount 0
+	  if { $output_port_list != ""} {
+	  	puts_ipfile $ipfile "import \"DPI-C\" function void ps7_get_outputs_${bus_interface_name}_$clk_port\("
+	  	foreach output_port_name $output_port_list {
+	  		incr outputPortCount 1
+	  		if { $outputPortCount != [llength $output_port_list] } {
+	  			puts_ipfile $ipfile "output bit $output_port_name,"
+	  		} else {
+	  			puts_ipfile $ipfile "output bit $output_port_name"
+	  		}
+	  	}
+	  	puts_ipfile $ipfile "\);\n" 
+	  }
+    }
+}
+
+puts_ipfile $ipfile "   export \"DPI-C\" function ps7_stop_sim;"
+puts_ipfile $ipfile "   function void ps7_stop_sim();"
+puts_ipfile $ipfile "        \$display(\"End of simulation\");"
+puts_ipfile $ipfile "        \$finish(0);"
+puts_ipfile $ipfile "   endfunction"
+puts_ipfile $ipfile "   export \"DPI-C\" function ps7_get_time;"
+puts_ipfile $ipfile "   function real ps7_get_time();"
+puts_ipfile $ipfile "       ps7_get_time = \$time;"
+puts_ipfile $ipfile "   endfunction\n"
+
+foreach plRst $plRstPorts {
+    puts_ipfile $ipfile "   export \"DPI-C\" function ps7_set_output_pins_$plRst;"
+    puts_ipfile $ipfile "   function void ps7_set_output_pins_${plRst}(int value);"
+    puts_ipfile $ipfile "       $plRst = value; "
+    puts_ipfile $ipfile "   endfunction\n"
+}
+
+puts_ipfile $ipfile "\n\/\/INITIAL BLOCK\n"
+puts_ipfile $ipfile "   initial"
+puts_ipfile $ipfile "   begin"
+puts_ipfile $ipfile "  \$sformat\(ip_name,\"%m\"\);"
+puts_ipfile $ipfile "      ps7_set_ip_context\(ip_name\);"
+foreach port_name [getParameterFunctions] {
+   puts_ipfile $ipfile "      $port_name"
+}    
+
+
+foreach bus_interface_names_itr $axibus_interface_names {
+	set interfaceVLNV [get_property BUS_TYPE_VLNV $bus_interface_names_itr]
+   set nameBusInterface [string tolower [get_property NAME $bus_interface_names_itr] ]
+    set checkBusEnablement [get_property ENABLEMENT_VALUE $bus_interface_names_itr]
+    if { $checkBusEnablement == 1 } { 
+     set func [getSVCosimInitFunctions $bus_interface_names_itr ] 
+     set func_port [join $func ,]
+     puts_ipfile $ipfile "\n  ps7_init_$nameBusInterface\($func_port\);"
+    }
+}
+	 
+puts_ipfile $ipfile "  ps7_init_c_model\(\);"
+puts_ipfile $ipfile "  end"
+
+foreach plClockPorts_itr [dict keys $plClockEnPorts] {
+    set pl_clk $plClockPorts_itr
+    set pl_clk_en_param [dict get $plClockEnPorts $plClockPorts_itr]
+    set userParameter_itr [ipx::get_user_parameters -of_objects [current_ipbom] -filter "NAME==$pl_clk_en_param"]
+    set userparameter_value [get_property VALUE $userParameter_itr]
+    
+    set pl_clk_freq_param [dict get $plClockFreqPorts $plClockPorts_itr]
+    set userParameter_freq [ipx::get_user_parameters -of_objects [current_ipbom] -filter "NAME==$pl_clk_freq_param"]
+    set userparameter_freq_value [get_property VALUE $userParameter_freq]
+    set clk_period [expr 1000000000.0/($userparameter_freq_value * 2000000)]
+    if { $userparameter_value == 1 } {
+        puts_ipfile $ipfile "  initial"
+        puts_ipfile $ipfile "  begin"
+        puts_ipfile $ipfile "     $pl_clk = 1'b0;"
+        puts_ipfile $ipfile "  end\n"
+        puts_ipfile $ipfile "  always #($clk_period) $pl_clk <= ~$pl_clk;\n"
+        puts_ipfile $ipfile "  always@(posedge $pl_clk)"
+        puts_ipfile $ipfile "  begin"
+        puts_ipfile $ipfile "   ps7_set_ip_context(ip_name);"
+        puts_ipfile $ipfile "   ps7_simulate_single_cycle_${pl_clk}();"
+        puts_ipfile $ipfile "  end\n"
+    }
+}
+
+if {$plIntrPortEnable == 1 } {
+    set left  [get_property SIZE_LEFT $plIntrPort]
+    set right [get_property SIZE_RIGHT $plIntrPort]
+    for  { set i $right  } { $i <= $left } { incr i } {
+        puts_ipfile $ipfile "always@(posedge $plIntrPortName\[$i\])"
+        puts_ipfile $ipfile "begin"
+        puts_ipfile $ipfile "    ps7_set_input_${plIntrPortName}($i,1);"
+        puts_ipfile $ipfile "end"
+        puts_ipfile $ipfile "always@(negedge $plIntrPortName\[$i\])"
+        puts_ipfile $ipfile "begin"
+        puts_ipfile $ipfile "    ps7_set_input_${plIntrPortName}($i,0);"
+        puts_ipfile $ipfile "end"
+    }
+}
+
+foreach clock_names_itr $clkbus_interface_names {
+    variable logicalAxiPorts
+    set last_bus_interface_name ""	
+	set input_port_list {}
+	set output_port_list {}
+	set interfaceVLNV [get_property BUS_TYPE_VLNV $clock_names_itr]
+    set nameBusInterface [string tolower [get_property NAME $clock_names_itr] ]
+    set checkBusEnablement [get_property ENABLEMENT_VALUE $clock_names_itr]
+    if { $checkBusEnablement == 1 } { 
+     set func [getSVCosimClock $clock_names_itr ]
+     foreach a $func {
+      set bus_interface_name [string tolower [get_property BUSIFPARAM_VALUE.[lindex $clock_names_itr 2].ASSOCIATED_BUSIF]]
+	    foreach bus_name $bus_interface_names {
+	    	set busInterface [string tolower [get_property NAME $bus_name] ]
+	    	if { $bus_interface_name eq $busInterface } {
+	    		if { $busInterface ne $last_bus_interface_name} {
+                    foreach logicalPort $logicalAxiPorts {
+                        set y [ipx::get_port_maps -of_objects $bus_name -filter "LOGICAL_NAME==$logicalPort"]
+                        if { [llength $y] < 1 } {
+                            continue;
+                        }
+	    				#GET THE PHYSICAL NAME OF THE PORT MAP
+	    				set physicalName [get_property PHYSICAL_NAME $y]
+	    				set portNames [ipx::get_ports -of_objects [current_ipbom]]
+	    				#ITERATING OVER ALL THE PORTS
+	    				foreach portNameIterator $portNames {
+	    					set portName_init [lindex $portNameIterator 2]
+	    					if {$physicalName eq $portName_init} {
+	    						set isInput  [get_property DIRECTION $portNameIterator]
+	    						
+	    						if { $isInput == "in" } {
+	    							lappend input_port_list "[lindex $portNameIterator 2]"
+	    						} else {
+	    							lappend output_port_list "[lindex $portNameIterator 2]"
+	    						}
+	    					}
+	    				}
+	    			}
+	    			set last_bus_interface_name $busInterface
+	    		}
+	    	}
+	    }
+        set inputPortCount 0
+	    if { $input_port_list != "" } { 
+	    	puts_ipfile $ipfile "\nalways\@\(posedge $a\)"
+	    	puts_ipfile $ipfile "  begin"
+	    	puts_ipfile $ipfile "\n   ps7_set_ip_context\(ip_name\);"
+	    	puts_ipfile $ipfile "\n   ps7_set_inputs_${bus_interface_name}_$a\("
+	    	foreach port_name $input_port_list {
+	    	   incr inputPortCount 1
+	    	   if { $inputPortCount != [llength $input_port_list] } {
+	    		  puts_ipfile $ipfile "    $port_name,"
+	    	   } else {
+	    		  puts_ipfile $ipfile "    $port_name"
+	    	   }
+	    	}
+	    	puts_ipfile $ipfile "  \);"
+	    
+	    	puts_ipfile $ipfile "\n   ps7_simulate_single_cycle_${a}();"
+	    }
+	    
+        set outputPortsCount 0
+	    if { $output_port_list != ""} {
+	    	puts_ipfile $ipfile "\n   ps7_get_outputs_${bus_interface_name}_$a\("
+	    	foreach port_name $output_port_list {
+	    	   incr outputPortsCount 1
+	    	   if { $outputPortsCount != [llength $output_port_list] } {
+	    		  puts_ipfile $ipfile "    $port_name,"
+	    	   } else {
+	    		  puts_ipfile $ipfile "    $port_name"
+	    	   }
+	    	}
+	    	puts_ipfile $ipfile "  \);"
+	    	puts_ipfile $ipfile "   end\n"
+	    }
+     }
+  }
+}
+puts_ipfile $ipfile "endmodule\n"
+close_ipfile $ipfile

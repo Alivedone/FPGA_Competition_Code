@@ -1,0 +1,19 @@
+{
+  "source_group": "Rotate",
+  "source_class_order": [
+    "UAV1",
+    "UAV2",
+    "UAV3",
+    "UAV4",
+    "Bird",
+    "Birds",
+    "Wing Bird",
+    "Rotate",
+    "Car"
+  ],
+  "source_cpu_result": "prj_LSS_HSRV3/output/gui_waterfall_validation_20261024_153900/cpu_results/task_pc_3",
+  "original_cpu_output_sha256": "04ff42ed1c39244c6c1a077c175b041af4c4604216314629257ab926dd51a0af",
+  "reused_real_CPU_output": false,
+  "network_task_executed": false,
+  "board_tested": false
+}

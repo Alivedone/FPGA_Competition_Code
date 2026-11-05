@@ -1,0 +1,1 @@
+{"version": 1, "type": "RESULT", "task_id": "offline_real_cpu_Wing_Bird", "payload_bytes": 36, "window_index": 0, "start_frame": 0, "window_size": 10, "dtype": "float32_le", "shape": [1, 9], "crc32": "7cd6ad79", "summary": {"class_id": 6, "class_name": "6", "kind": "classification", "score": 0.6555014299598023}, "physical_execution": false}

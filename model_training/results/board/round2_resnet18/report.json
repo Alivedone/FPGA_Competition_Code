@@ -1,0 +1,200 @@
+{
+  "warmup": 54,
+  "requests": 1080,
+  "timing": {
+    "request_ms": {
+      "count": 1080,
+      "mean_ms": 3.0609238148148155,
+      "median_ms": 3.0535050000000004,
+      "p95_ms": 3.094185,
+      "p99_ms": 3.1391131,
+      "min_ms": 3.0307,
+      "max_ms": 5.97997,
+      "std_ms": 0.09457003596631129
+    },
+    "tensor_build_ms": {
+      "count": 1080,
+      "mean_ms": 0.08235746296296295,
+      "median_ms": 0.08135,
+      "p95_ms": 0.0866305,
+      "p99_ms": 0.10123660000000001,
+      "min_ms": 0.07838,
+      "max_ms": 0.19019,
+      "std_ms": 0.005617443619895293
+    },
+    "reset_ms": {
+      "count": 1080,
+      "mean_ms": 0.01047501851851852,
+      "median_ms": 0.01034,
+      "p95_ms": 0.010870499999999998,
+      "p99_ms": 0.012092600000000002,
+      "min_ms": 0.00961,
+      "max_ms": 0.05231,
+      "std_ms": 0.0016313962435168126
+    },
+    "forward_wait_ms": {
+      "count": 1080,
+      "mean_ms": 2.9201373611111108,
+      "median_ms": 2.9130149999999997,
+      "p95_ms": 2.9490945,
+      "p99_ms": 2.9832948,
+      "min_ms": 2.89236,
+      "max_ms": 5.78661,
+      "std_ms": 0.09116514090018771
+    },
+    "output_read_ms": {
+      "count": 1080,
+      "mean_ms": 0.047953972222222224,
+      "median_ms": 0.04741,
+      "p95_ms": 0.050351,
+      "p99_ms": 0.0641304,
+      "min_ms": 0.04564,
+      "max_ms": 0.10237,
+      "std_ms": 0.002889171683674564
+    }
+  },
+  "memory": {
+    "before_model": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 50139136,
+        "VmHWM": 50139136,
+        "VmSize": 230100992,
+        "VmPeak": 233910272
+      },
+      "smaps_bytes": {
+        "Rss": 50352128,
+        "Pss": 40520704,
+        "Private_Clean": 16273408,
+        "Private_Dirty": 19075072
+      },
+      "system_bytes": {
+        "MemAvailable": 742629376,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "after_sdk_import": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 50139136,
+        "VmHWM": 50139136,
+        "VmSize": 230100992,
+        "VmPeak": 233910272
+      },
+      "smaps_bytes": {
+        "Rss": 50339840,
+        "Pss": 40508416,
+        "Private_Clean": 16273408,
+        "Private_Dirty": 19062784
+      },
+      "system_bytes": {
+        "MemAvailable": 742629376,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "after_apply": {
+      "pid": 420,
+      "status_bytes": {
+        "VmRSS": 66535424,
+        "VmHWM": 66535424,
+        "VmSize": 612450304,
+        "VmPeak": 633294848
+      },
+      "smaps_bytes": {
+        "Rss": 66965504,
+        "Pss": 57105408,
+        "Private_Clean": 31490048,
+        "Private_Dirty": 20414464
+      },
+      "system_bytes": {
+        "MemAvailable": 741605376,
+        "CmaTotal": 268435456,
+        "CmaFree": 133922816
+      }
+    },
+    "device_before_apply": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 0,
+          "allocated_chunks": 0
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    },
+    "device_after_apply": {
+      "regions": {
+        "default": {
+          "available": true,
+          "allocated_chunk_bytes": 12036632,
+          "allocated_chunks": 6
+        },
+        "PLDDR": {
+          "available": false,
+          "reason": "_Map_base::at"
+        },
+        "UDMABuf": {
+          "available": false,
+          "reason": "_Map_base::at"
+        }
+      },
+      "note": "SDK managed chunks at snapshot time; aliases may overlap. Do not sum regions. Not total physical DDR use or instantaneous hardware peak."
+    },
+    "sampled_max_rss_bytes": 74186752,
+    "sampled_max_pss_bytes": 64669696,
+    "sampled_default_sdk_chunk_peak_bytes": 12036632,
+    "note": "RSS/PSS belong to Linux process; SDK bytes are managed allocation snapshots, not full DDR or hardware peak. Memory probes ran after latency measurement.",
+    "rss_increment_after_apply_bytes": 16396288,
+    "sampled_rss_increment_from_before_model_bytes": 24047616
+  },
+  "model_load_ms": 369.84039,
+  "timing_samples_sha256": "96b7906d2cbbf0cd8afe7aa06b6e8295b8184701550eb5887c81dab4e482f0d0",
+  "memory_samples_sha256": "084b72706f244796170fd1f67e67116000ab5d69a3c6191a53916b89e240a18c",
+  "cpu_frequency_khz_before": {},
+  "cpu_frequency_khz_after": {},
+  "scope": "SDK request: tensor build + reset(1) + forward/final wait + FP32 readback. Excludes custom PL bridge, normalization, input observation wait, communication and plotting.",
+  "status": "completed",
+  "model": "resnet18",
+  "mode": "measure",
+  "board_executed": true,
+  "process_baseline": {
+    "pid": 420,
+    "status_bytes": {
+      "VmRSS": 29507584,
+      "VmHWM": 31383552,
+      "VmSize": 193753088,
+      "VmPeak": 194637824
+    },
+    "smaps_bytes": {
+      "Rss": 29552640,
+      "Pss": 20349952,
+      "Private_Clean": 208896,
+      "Private_Dirty": 15597568
+    },
+    "system_bytes": {
+      "MemAvailable": 744693760,
+      "CmaTotal": 268435456,
+      "CmaFree": 133922816
+    }
+  },
+  "python": "3.8.10",
+  "machine": "aarch64",
+  "numpy": "1.23.0",
+  "manifest_sha256": "0660cbcc9cd4e047e8c021e1c5616794e5de1f90f4377a87b1832cc10b4347eb",
+  "model_sha256": "fc6cf7f035fc3308d1f9f21ee0c000b8fcb3ed7389f69bbd550803faed0a6aac",
+  "weights_sha256": "2e5f90055894ebc30cb7ae56a4e4d0361e6bc81f89458b061ee41489fb396faa",
+  "parameters": 11172297,
+  "compiled_weights_bytes": 11934562,
+  "reference_repeated_exact": true,
+  "cli_reference_indices": []
+}
