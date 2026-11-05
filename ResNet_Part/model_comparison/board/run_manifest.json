@@ -1,0 +1,26 @@
+{
+  "run_id": "20261102_114204",
+  "remote_root": "source_record/resnet_compare_20261102_114204",
+  "client_utc": "2026-11-02T03:46:01.441658+00:00",
+  "package_zip_sha256": "3dcc869768c12657a42bbfd233b25e955bc8514f40b78a8dc29814d47879f084",
+  "package_bytes": 89887377,
+  "models": [
+    "resnet18",
+    "resnet34",
+    "resnet50"
+  ],
+  "source_sha256": {
+    "execute_board_compare.py": "cd7b1827de4f5ee74184e908e158f5c7cbf28120be0df30ba5aee30153676037",
+    "profile_board_models.py": "7b3aef7fe54b1b6a9183f2e28700c8403a80623513eac2f442fbf228f98abf79"
+  },
+  "scope": "Approved complete board comparison and independent profiling, all work under <board-workspace> disconnect after retrieval",
+  "settings": {
+    "rounds": 3,
+    "warmup": 54,
+    "requests": 1080,
+    "window": 10,
+    "bins": 512,
+    "batch": 1,
+    "host_threads": 1
+  }
+}

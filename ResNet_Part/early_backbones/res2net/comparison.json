@@ -1,0 +1,312 @@
+{
+  "classes": [
+    "UAV1",
+    "UAV2",
+    "UAV3",
+    "UAV4",
+    "Bird",
+    "Birds",
+    "Wing Bird",
+    "Rotate",
+    "Car"
+  ],
+  "epochs": 20,
+  "seeds": [
+    42
+  ],
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "device": "cuda",
+  "torch_version": "2.8.0+cu129",
+  "cuda_build": "12.9",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "manifest_sha256": "ad3fb9c597acba599a1a3e938c27de8afab50ddfe998b4bd72c0c590028b5646",
+  "train_files": 964,
+  "development_files": 241,
+  "heldout_used": false,
+  "results": [
+    {
+      "branch": "res2net50_26w_4s_spectrum",
+      "seed": 42,
+      "best_epoch": 15,
+      "parameters": 23659729,
+      "training_seconds": 1183.9644026999886,
+      "forward_ms_p50": 7.691799983149394,
+      "forward_ms_p95": 9.48006999824429,
+      "sequence_accuracy": 0.8340248962655602,
+      "macro_f1": 0.82278535386894,
+      "per_class_f1": [
+        0.8181818181818182,
+        0.8,
+        0.6511627906976744,
+        0.761904761904762,
+        0.8571428571428571,
+        0.7916666666666667,
+        0.888888888888889,
+        0.9130434782608695,
+        0.9230769230769231
+      ],
+      "confusion_matrix": [
+        [
+          18,
+          2,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          14,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          4,
+          4,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          27,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          19,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          1,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          21,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          42
+        ]
+      ],
+      "window_accuracy": 0.7327384435342306,
+      "window_macro_f1": 0.7291766873375797,
+      "window_per_class_f1": [
+        0.6738296239447428,
+        0.724679029957204,
+        0.5144927536231884,
+        0.6142742582197275,
+        0.8234709099950275,
+        0.6948480845442537,
+        0.7830423940149627,
+        0.8664206642066421,
+        0.8675324675324675
+      ],
+      "window_confusion_matrix": [
+        [
+          439,
+          107,
+          126,
+          28,
+          0,
+          20,
+          17,
+          16,
+          14
+        ],
+        [
+          3,
+          762,
+          9,
+          33,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          57,
+          176,
+          355,
+          83,
+          2,
+          2,
+          1,
+          0,
+          30
+        ],
+        [
+          8,
+          170,
+          150,
+          383,
+          1,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          5,
+          31,
+          2,
+          828,
+          112,
+          5,
+          0,
+          0
+        ],
+        [
+          7,
+          27,
+          3,
+          0,
+          83,
+          526,
+          115,
+          16,
+          4
+        ],
+        [
+          3,
+          3,
+          0,
+          0,
+          114,
+          64,
+          628,
+          2,
+          0
+        ],
+        [
+          13,
+          37,
+          0,
+          0,
+          0,
+          2,
+          21,
+          587,
+          74
+        ],
+        [
+          6,
+          5,
+          0,
+          0,
+          0,
+          7,
+          3,
+          0,
+          501
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "res2net50_26w_4s_spectrum": {
+      "sequence_accuracy": {
+        "mean": 0.8340248962655602,
+        "std": 0.0
+      },
+      "macro_f1": {
+        "mean": 0.82278535386894,
+        "std": 0.0
+      },
+      "window_accuracy": {
+        "mean": 0.7327384435342306,
+        "std": 0.0
+      },
+      "window_macro_f1": {
+        "mean": 0.7291766873375797,
+        "std": 0.0
+      },
+      "forward_ms_p50": {
+        "mean": 7.691799983149394,
+        "std": 0.0
+      },
+      "forward_ms_p95": {
+        "mean": 9.48006999824429,
+        "std": 0.0
+      },
+      "parameters": 23659729,
+      "per_class_f1_mean": [
+        0.8181818181818182,
+        0.8,
+        0.6511627906976744,
+        0.761904761904762,
+        0.8571428571428571,
+        0.7916666666666667,
+        0.888888888888889,
+        0.9130434782608695,
+        0.9230769230769231
+      ]
+    }
+  },
+  "limitations": [
+    "Best-epoch development results are model-selection estimates, not independent test scores.",
+    "Exact overlap checks do not establish session or physical-target independence.",
+    "Forward latency excludes loading, normalization, transfer and host application.",
+    "Different branches have different parameter counts; this is an input-ablation baseline, not capacity-matched proof."
+  ]
+}

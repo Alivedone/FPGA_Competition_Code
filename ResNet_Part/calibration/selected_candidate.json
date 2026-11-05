@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "candidate": "C_representative54",
+  "model": "C_representative54/icraft/ResNet34_radar_ZG.json",
+  "weights": "C_representative54/icraft/ResNet34_radar_ZG.raw",
+  "selection": "C_representative54/selection.json",
+  "identity": {
+    "ZG_json": "c8af71860e7da108f548875d9316495f1b57daf12f3ea0c7d335333052cc4c26",
+    "ZG_raw": "5d7999b2eac9ff6a06946cfb16888fdfb6057cfc26d0e95d4afcb7804e72c10d",
+    "selection_sha256": "badac3c13d8db4158f6bf3a4dd8503b7d18915aa191bbb52ccbcac2c5a078f7e"
+  },
+  "input": {
+    "dtype": "FP32",
+    "shape": [
+      1,
+      10,
+      512,
+      1
+    ],
+    "normalization": "External frozen z-score, exactly once"
+  },
+  "output": {
+    "dtype": "FP32",
+    "shape": [
+      1,
+      9
+    ],
+    "meaning": "logits",
+    "value_id": 289
+  },
+  "scope": "Preferred development-set candidate, not an unbiased heldout result or latency benchmark",
+  "heldout_used": false,
+  "original_package_replaced": false,
+  "host_full_development_checked": true
+}

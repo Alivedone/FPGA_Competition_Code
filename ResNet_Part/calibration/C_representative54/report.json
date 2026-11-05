@@ -1,0 +1,621 @@
+{
+  "status": "completed",
+  "variant": "C_representative54",
+  "partition": "development",
+  "heldout_used": false,
+  "files": 241,
+  "windows": 6836,
+  "classes": [
+    "UAV1",
+    "UAV2",
+    "UAV3",
+    "UAV4",
+    "Bird",
+    "Birds",
+    "Wing Bird",
+    "Rotate",
+    "Car"
+  ],
+  "identity": {
+    "selection_sha256": "badac3c13d8db4158f6bf3a4dd8503b7d18915aa191bbb52ccbcac2c5a078f7e",
+    "metadata_sha256": "7a69ccf0a120f187df5bb41c63be6c6f0681b7df9d1d4847ae536cbeb425978b",
+    "network_sha256": "c8af71860e7da108f548875d9316495f1b57daf12f3ea0c7d335333052cc4c26",
+    "weights_sha256": "5d7999b2eac9ff6a06946cfb16888fdfb6057cfc26d0e95d4afcb7804e72c10d",
+    "baseline_predictions_sha256": "96a0810e194df0e3fd3e110dac071f1c402d82631af9eefd908ffea8781e3f6b"
+  },
+  "predictions_sha256": "f6a39bd5e04fa91fa36b5e714d387ee0aa85a3e3d3b776df0fbdd4283b8d6c6b",
+  "board_window": {
+    "accuracy": 0.8174370977179637,
+    "macro_f1": 0.8177253587486452,
+    "correct": 5588,
+    "per_class_f1": [
+      0.8018648018648019,
+      0.8419737663960025,
+      0.7177304964539007,
+      0.7133079847908745,
+      0.866,
+      0.7780429594272077,
+      0.8151202749140893,
+      0.9097370291400142,
+      0.9157509157509157
+    ],
+    "confusion_matrix": [
+      [
+        688,
+        6,
+        22,
+        17,
+        0,
+        17,
+        7,
+        8,
+        2
+      ],
+      [
+        67,
+        674,
+        26,
+        31,
+        0,
+        1,
+        0,
+        11,
+        1
+      ],
+      [
+        80,
+        27,
+        506,
+        66,
+        7,
+        12,
+        0,
+        1,
+        7
+      ],
+      [
+        77,
+        37,
+        133,
+        469,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        9,
+        3,
+        16,
+        5,
+        866,
+        73,
+        4,
+        6,
+        1
+      ],
+      [
+        7,
+        24,
+        0,
+        0,
+        60,
+        652,
+        36,
+        2,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        0,
+        82,
+        123,
+        593,
+        4,
+        6
+      ],
+      [
+        9,
+        14,
+        0,
+        8,
+        1,
+        9,
+        1,
+        640,
+        52
+      ],
+      [
+        6,
+        5,
+        1,
+        1,
+        0,
+        8,
+        0,
+        1,
+        500
+      ]
+    ]
+  },
+  "board_sequence": {
+    "accuracy": 0.9004149377593361,
+    "macro_f1": 0.8934389007001575,
+    "correct": 217,
+    "per_class_f1": [
+      0.8846153846153846,
+      0.9166666666666666,
+      0.851063829787234,
+      0.8372093023255814,
+      0.8923076923076924,
+      0.875,
+      0.8837209302325582,
+      0.9333333333333333,
+      0.967032967032967
+    ],
+    "confusion_matrix": [
+      [
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        22,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        20,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        2,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        29,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        19,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        44
+      ]
+    ]
+  },
+  "fp32_window": {
+    "accuracy": 0.8229959040374488,
+    "macro_f1": 0.8230110247085038,
+    "correct": 5626,
+    "per_class_f1": [
+      0.8172043010752689,
+      0.8470444850700792,
+      0.7308781869688386,
+      0.7192192192192193,
+      0.8673267326732673,
+      0.782608695652174,
+      0.8175582990397805,
+      0.917680744452398,
+      0.9075785582255084
+    ],
+    "confusion_matrix": [
+      [
+        684,
+        9,
+        23,
+        17,
+        0,
+        17,
+        7,
+        9,
+        1
+      ],
+      [
+        59,
+        695,
+        23,
+        34,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        66,
+        29,
+        516,
+        67,
+        7,
+        11,
+        0,
+        1,
+        9
+      ],
+      [
+        67,
+        42,
+        128,
+        479,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        6,
+        4,
+        15,
+        5,
+        876,
+        67,
+        3,
+        6,
+        1
+      ],
+      [
+        4,
+        25,
+        0,
+        0,
+        64,
+        648,
+        37,
+        3,
+        0
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        89,
+        117,
+        596,
+        2,
+        5
+      ],
+      [
+        11,
+        12,
+        0,
+        11,
+        0,
+        6,
+        1,
+        641,
+        52
+      ],
+      [
+        5,
+        14,
+        1,
+        1,
+        0,
+        9,
+        0,
+        1,
+        491
+      ]
+    ]
+  },
+  "fp32_sequence": {
+    "accuracy": 0.9045643153526971,
+    "macro_f1": 0.8982588835545164,
+    "correct": 218,
+    "per_class_f1": [
+      0.92,
+      0.8979591836734694,
+      0.8260869565217391,
+      0.8888888888888888,
+      0.8923076923076924,
+      0.875,
+      0.8837209302325582,
+      0.9333333333333333,
+      0.967032967032967
+    ],
+    "confusion_matrix": [
+      [
+        23,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        22,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        19,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        29,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        2,
+        19,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        44
+      ]
+    ]
+  },
+  "versus_original_board": {
+    "agreement": 0.949093036863663,
+    "changed": 348,
+    "max_abs_error": 6.2265625,
+    "mean_abs_error": 0.857596755027771,
+    "rms_error": 1.3580754797729735
+  },
+  "versus_fp32": {
+    "agreement": 0.9726448215330603,
+    "changed": 187,
+    "max_abs_error": 31.64720916748047,
+    "mean_abs_error": 0.5808985233306885,
+    "rms_error": 1.346951315006867
+  },
+  "sequence_agreement_original_board": 0.979253112033195,
+  "cli_reference_checks": [
+    {
+      "reference_id": "000_class0",
+      "input_sha256": "35e13896731e7ae11fd58c7e2d443d4e4e1ddc2ab2a11a2978e369da4a7e4d93",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 0,
+      "cli_class": 0
+    },
+    {
+      "reference_id": "012_class4",
+      "input_sha256": "b8a5be3a120b898f4c52999f414cbe3d4fae487457fc248197024d3849ee0a8d",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 5,
+      "cli_class": 5
+    },
+    {
+      "reference_id": "024_class8",
+      "input_sha256": "30b88c403e7cd13501cbc16c83e9fd7dba87950d9e002a005f91810c9a32849e",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 8,
+      "cli_class": 8
+    }
+  ],
+  "cli_spot_checks": [
+    {
+      "window_index": 0,
+      "label": 0,
+      "input_sha256": "96a1202065d51d8449c80bd4a3dea9e4629c8b2c859f5a150e6aba443534c081",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 0,
+      "cli_class": 0
+    },
+    {
+      "window_index": 767,
+      "label": 1,
+      "input_sha256": "4b7dbee11f31387f93a159ea76c81df281775d192374982311d8ae76c7bf133d",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 1,
+      "cli_class": 1
+    },
+    {
+      "window_index": 1578,
+      "label": 2,
+      "input_sha256": "2ecb729130f72a06cb21f0e47b5c7597dd5ad2a1a9ffdceaf5b3c13a1e9fd6e8",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 3,
+      "cli_class": 3
+    },
+    {
+      "window_index": 2284,
+      "label": 3,
+      "input_sha256": "c250c29a45128fdbc312fdcadcd18ba202b9b79a79149393c725cc31011f5d25",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 2,
+      "cli_class": 2
+    },
+    {
+      "window_index": 3002,
+      "label": 4,
+      "input_sha256": "69de44c925a798c9766cfa7fe20f7dea4b9db526ab8f489666b486e14182d7c8",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 5,
+      "cli_class": 5
+    },
+    {
+      "window_index": 3985,
+      "label": 5,
+      "input_sha256": "57dd35bab89ff6fe38861409fc3cb9703b93df587aa9a19016d6641ba7c6ccb5",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 5,
+      "cli_class": 5
+    },
+    {
+      "window_index": 4766,
+      "label": 6,
+      "input_sha256": "3cd2649b16ce7f5743c1e30d6e4e7c7d9cab1d11ac8bc6a0aee6bc58e4b727a6",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 4,
+      "cli_class": 4
+    },
+    {
+      "window_index": 5580,
+      "label": 7,
+      "input_sha256": "f4b3d0055045b1d02e4c04448cd1097e17033c0bdbaba14e04f027017b4f541d",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 7,
+      "cli_class": 7
+    },
+    {
+      "window_index": 6314,
+      "label": 8,
+      "input_sha256": "02e171a313ccd5816dd45a5b779497430937ed4d1dfc67a39884a6e1e7180d2d",
+      "output_id": 289,
+      "max_abs_error": 0.0,
+      "sdk_class": 8,
+      "cli_class": 8
+    }
+  ],
+  "deterministic_reference_repeats": true,
+  "note": "Accuracy only, not timing. Sequence prediction averages per-window softmax probabilities."
+}
