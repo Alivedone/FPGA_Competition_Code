@@ -1,0 +1,57 @@
+﻿page,name,type,x,y,w,h,font_px,initial_text_or_action,data_or_event
+main,tClass,text,40,140,440,58,32,等待识别,RESULT.summary.class_name
+main,tId,text,42,235,130,40,24,--,class_id
+main,tScore,text,200,235,270,40,24,-- %,score * 100
+main,tValid,text,54,361,408,31,14,暂无有效结果，等待开发板数据,result validity
+main,tState,text,536,135,224,43,30,等待连接,service state
+main,tLink,text,536,189,224,23,13,服务尚未确认,service connection
+main,tWinMs,text,536,290,224,47,30,-- ms,hardware_window.total_ms
+main,tFwdMs,text,536,350,224,27,14,推理调用  -- ms,forward_ms
+main,tAge,text,536,389,224,22,13,结果更新：--,result age
+main,bHistory,hotspot,608,445,172,29,,page history,page history
+history,r0Id,text,40,150,125,31,17,--,history row 0: Id
+history,r0Class,text,180,150,125,31,17,--,history row 0: Class
+history,r0Score,text,330,150,135,31,17,--,history row 0: Score
+history,r0Ms,text,485,150,140,31,17,--,history row 0: Ms
+history,bRow0,hotspot,32,145,736,43,,UART select row 0; wait for host detail data,UART select row 0; wait for host detail data
+history,r1Id,text,40,199,125,31,17,--,history row 1: Id
+history,r1Class,text,180,199,125,31,17,--,history row 1: Class
+history,r1Score,text,330,199,135,31,17,--,history row 1: Score
+history,r1Ms,text,485,199,140,31,17,--,history row 1: Ms
+history,bRow1,hotspot,32,194,736,43,,UART select row 1; wait for host detail data,UART select row 1; wait for host detail data
+history,r2Id,text,40,248,125,31,17,--,history row 2: Id
+history,r2Class,text,180,248,125,31,17,--,history row 2: Class
+history,r2Score,text,330,248,135,31,17,--,history row 2: Score
+history,r2Ms,text,485,248,140,31,17,--,history row 2: Ms
+history,bRow2,hotspot,32,243,736,43,,UART select row 2; wait for host detail data,UART select row 2; wait for host detail data
+history,r3Id,text,40,297,125,31,17,--,history row 3: Id
+history,r3Class,text,180,297,125,31,17,--,history row 3: Class
+history,r3Score,text,330,297,135,31,17,--,history row 3: Score
+history,r3Ms,text,485,297,140,31,17,--,history row 3: Ms
+history,bRow3,hotspot,32,292,736,43,,UART select row 3; wait for host detail data,UART select row 3; wait for host detail data
+history,r4Id,text,40,346,125,31,17,--,history row 4: Id
+history,r4Class,text,180,346,125,31,17,--,history row 4: Class
+history,r4Score,text,330,346,135,31,17,--,history row 4: Score
+history,r4Ms,text,485,346,140,31,17,--,history row 4: Ms
+history,bRow4,hotspot,32,341,736,43,,UART select row 4; wait for host detail data,UART select row 4; wait for host detail data
+history,tCount,text,24,409,410,22,13,暂无历史记录，等待开发板加载,history total / hint
+history,tNew,text,454,409,322,22,12,,new result notification
+history,bHome,hotspot,20,445,130,29,,page main,page main
+history,tPage,text,275,448,140,24,14,第 -- 页,history page number
+history,bPrev,hotspot,460,445,144,29,,UART query previous history page,UART query previous history page
+history,bNext,hotspot,620,445,160,29,,UART query next history page,UART query next history page
+detail,tRecord,text,135,121,110,44,18,--,selected record ID
+detail,tClass,text,255,121,235,44,18,识别类别：--,class_name
+detail,tScore,text,505,121,255,44,18,最高预测概率：--,score
+detail,tPl,text,260,284,112,28,16,-- ms,PL 搬运
+detail,tIn,text,260,314,112,28,16,-- ms,输入校验
+detail,tFwd,text,260,344,112,28,16,-- ms,推理调用
+detail,tOut,text,260,374,112,28,16,-- ms,输出读取与校验
+detail,tWinMs,text,641,284,120,28,16,--,窗口处理耗时
+detail,tTotal,text,641,314,120,28,16,--,任务处理耗时
+detail,tClean,text,641,344,120,28,16,--,硬件清理耗时
+detail,tStart,text,641,374,120,28,16,--,窗口起始帧
+detail,bHistory,hotspot,608,445,172,29,,page history; restore list position,page history; restore list position
+detail,tTask,text_hidden,0,0,1,1,14,,"保留以兼容UART V2；后初始化vis tTask,0"
+detail,tModel,text_hidden,0,0,1,1,14,,"保留以兼容UART V2；后初始化vis tModel,0"
+detail,tHint,text_hidden,0,0,1,1,14,,"保留以兼容UART V2；后初始化vis tHint,0"
